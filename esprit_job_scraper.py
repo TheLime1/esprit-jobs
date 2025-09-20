@@ -107,6 +107,15 @@ class EspritJobScraper:
         self.jobs_scraped: List[JobPosting] = []
         self.session = requests.Session()
 
+        # Load existing job IDs for duplicate detection (EXTRA SAFETY)
+        self.existing_job_ids = self.load_existing_job_ids()
+
+        # Start from current_job_id - 1 for extra safety against duplicates
+        if self.current_job_id > self.initial_job_id:
+            self.current_job_id = self.current_job_id - 1
+            logger.info(
+                f"🔄 Starting from job ID {self.current_job_id} (current-1) for duplicate safety")
+
         # Configure Firefox options
         self.firefox_options = Options()
         if headless:
@@ -135,6 +144,42 @@ class EspritJobScraper:
             logger.warning(
                 f"Error loading state file: {e}, starting from initial job ID {self.initial_job_id}")
             return self.initial_job_id
+
+    def load_existing_job_ids(self) -> set:
+        """Load existing job IDs from data files for duplicate detection"""
+        existing_ids = set()
+
+        # Check multiple possible locations for existing job data
+        data_files = [
+            "data/jobs_raw.json",
+            "jobs_raw.json"
+        ]
+
+        for data_file in data_files:
+            if os.path.exists(data_file):
+                try:
+                    with open(data_file, 'r', encoding='utf-8') as f:
+                        jobs = json.load(f)
+
+                    if jobs:
+                        job_ids = {job['job_id']
+                                   for job in jobs if 'job_id' in job}
+                        existing_ids.update(job_ids)
+                        logger.info(
+                            f"🔍 Loaded {len(job_ids)} existing job IDs from {data_file}")
+                        break  # Use the first file found
+
+                except Exception as e:
+                    logger.warning(
+                        f"Error loading existing job data from {data_file}: {e}")
+
+        if existing_ids:
+            logger.info(
+                f"🛡️ Duplicate detection active - will skip {len(existing_ids)} existing jobs")
+        else:
+            logger.info("🆕 No existing job data found - starting fresh")
+
+        return existing_ids
 
     def save_last_job_id(self, job_id: int) -> None:
         """Save the last processed job ID to state file"""
@@ -565,9 +610,16 @@ class EspritJobScraper:
 
                 break
             else:
-                self.jobs_scraped.append(job)
-                jobs_scraped += 1
-                logger.info(f"Jobs scraped: {jobs_scraped}")
+                # Check for duplicates (EXTRA EXTRA SAFETY)
+                if job.job_id in self.existing_job_ids:
+                    logger.warning(
+                        f"🔄 Duplicate detected: Job {job.job_id} already exists - skipping")
+                else:
+                    self.jobs_scraped.append(job)
+                    # Add to existing IDs set to prevent duplicates within this session
+                    self.existing_job_ids.add(job.job_id)
+                    jobs_scraped += 1
+                    logger.info(f"Jobs scraped: {jobs_scraped}")
 
             self.current_job_id += 1
             time.sleep(1)  # Be respectful to the server

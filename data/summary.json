@@ -1,20 +1,10 @@
 {
-  "total_jobs": 6,
-  "session_start_job_id": 801,
-  "session_end_job_id": 800,
-  "next_job_id": 801,
-  "scraped_at": "2025-09-20T16:48:25.590162",
+  "total_jobs": 7,
+  "session_start_job_id": 804,
+  "session_end_job_id": 803,
+  "next_job_id": 804,
+  "scraped_at": "2025-09-20T16:55:07.094518",
   "jobs": [
-    {
-      "id": 795,
-      "title": "Offre d'emploi -Psynarios",
-      "company": "Psynarios"
-    },
-    {
-      "id": 796,
-      "title": "Internship Opportunity – Backend Developer (FastAPI, AI, Microservices)",
-      "company": "Backend Developer"
-    },
     {
       "id": 797,
       "title": "Offre d'emploi - DATS connexion",
@@ -34,6 +24,21 @@
       "id": 800,
       "title": "Offre de stage PFE - Data Scientist",
       "company": "Psynarios"
+    },
+    {
+      "id": 801,
+      "title": "Offre de stage PFE - MSB & MEDTECH",
+      "company": "MSB & MEDTECH"
+    },
+    {
+      "id": 802,
+      "title": "Offre d'emploi - Huawei",
+      "company": "HUAWEI"
+    },
+    {
+      "id": 803,
+      "title": "Offre de stage PFE",
+      "company": "Komax Testing Tunisia"
     }
   ]
 }
