@@ -1,9 +1,9 @@
 {
-  "total_jobs": 11,
-  "session_start_job_id": 795,
-  "session_end_job_id": 805,
-  "next_job_id": 806,
-  "scraped_at": "2025-09-20T16:31:28.340219",
+  "total_jobs": 6,
+  "session_start_job_id": 801,
+  "session_end_job_id": 800,
+  "next_job_id": 801,
+  "scraped_at": "2025-09-20T16:48:25.590162",
   "jobs": [
     {
       "id": 795,
@@ -34,31 +34,6 @@
       "id": 800,
       "title": "Offre de stage PFE - Data Scientist",
       "company": "Psynarios"
-    },
-    {
-      "id": 801,
-      "title": "Offre de stage PFE - MSB & MEDTECH",
-      "company": "MSB & MEDTECH"
-    },
-    {
-      "id": 802,
-      "title": "Offre d'emploi - Huawei",
-      "company": "HUAWEI"
-    },
-    {
-      "id": 803,
-      "title": "Offre de stage PFE",
-      "company": "Komax Testing Tunisia"
-    },
-    {
-      "id": 804,
-      "title": "Unknown Title",
-      "company": "Unknown Company"
-    },
-    {
-      "id": 805,
-      "title": "Unknown Title",
-      "company": "Unknown Company"
     }
   ]
 }

@@ -13,7 +13,7 @@ import time
 import requests
 from datetime import datetime
 from dataclasses import dataclass, asdict
-from typing import List, Optional
+from typing import List, Optional, Union
 from urllib.parse import urljoin, urlparse
 import logging
 
@@ -276,7 +276,7 @@ class EspritJobScraper:
 
         return redirected
 
-    def extract_job_data(self, job_id: int) -> Optional[JobPosting]:
+    def extract_job_data(self, job_id: int) -> Optional[Union[JobPosting, str]]:
         """Extract job data from a job page"""
         try:
             job_url = f"{self.base_url}/jobs/{job_id}"
@@ -289,6 +289,10 @@ class EspritJobScraper:
             if self.is_redirected_to_home():
                 logger.info(
                     f"Job {job_id} doesn't exist - redirected to home page")
+                # Wait 3 seconds to ensure redirect is complete
+                logger.info(
+                    "Waiting 3 seconds to ensure redirect is complete...")
+                time.sleep(3)
                 return None
 
             # Extract job information
@@ -460,6 +464,16 @@ class EspritJobScraper:
                 added_by_company=added_by_company
             )
 
+            # Validate job is not empty (failsafe mechanism)
+            if self._is_empty_job(job):
+                logger.warning(
+                    f"⚠️ Job {job_id} appears to be empty - stopping scraper as failsafe")
+                logger.info(
+                    "This may indicate a redirect that wasn't caught or incomplete page load")
+                # Save current state so next run starts from this ID
+                self.save_last_job_id(job_id)
+                return "EMPTY_JOB_STOP"  # Special return value to signal stop
+
             logger.info(f"✅ Successfully scraped job {job_id}: {title}")
             return job
 
@@ -487,6 +501,21 @@ class EspritJobScraper:
                     return urljoin(self.base_url, src)
         return None
 
+    def _is_empty_job(self, job: JobPosting) -> bool:
+        """Check if a job is effectively empty (failsafe for missed redirects)"""
+        # A job is considered empty if it has no meaningful content
+        empty_indicators = [
+            not job.title or job.title.strip() == "" or job.title.lower() in [
+                "unknown", "no title", "unknown title"],
+            not job.company or job.company.strip() == "" or job.company.lower() in [
+                "unknown", "unknown company", "no company"],
+            not job.description or job.description.strip() == "" or job.description.lower() in [
+                "no description available", "no description", "unknown description"] or len(job.description.strip()) < 20,
+        ]
+
+        # If 2 or more indicators are true, consider it empty
+        return sum(empty_indicators) >= 2
+
     def scrape_jobs(self, max_jobs: int = 500) -> List[JobPosting]:
         """Main scraping loop"""
         if not self.login():
@@ -507,6 +536,23 @@ class EspritJobScraper:
                 logger.info("🎯 Saving progress and generating feeds...")
 
                 # Save results immediately when we hit the first missing job
+                if self.jobs_scraped:
+                    self.save_results()
+                    logger.info(
+                        f"✅ Successfully saved {len(self.jobs_scraped)} jobs")
+
+                    # Generate feeds
+                    from generate_feeds import generate_all_feeds
+                    generate_all_feeds("data/jobs_raw.json", "data")
+                    logger.info("📰 Feeds generated successfully")
+
+                break
+            elif job == "EMPTY_JOB_STOP":
+                logger.warning(
+                    "🛑 Empty job detected - stopping as failsafe mechanism")
+                logger.info("🎯 Saving progress before stopping...")
+
+                # Save results immediately when we detect empty job
                 if self.jobs_scraped:
                     self.save_results()
                     logger.info(
@@ -566,7 +612,7 @@ class EspritJobScraper:
         # Generate RSS and other feeds
         try:
             from generate_feeds import generate_all_feeds
-            generate_all_feeds(json_file, output_dir)
+            generate_all_feeds(raw_json_file, output_dir)
         except ImportError as e:
             logger.warning(f"Could not generate feeds: {e}")
         except Exception as e:
