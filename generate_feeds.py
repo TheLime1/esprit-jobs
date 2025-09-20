@@ -85,41 +85,49 @@ def create_rss_feed(jobs_data: List[Dict[str, Any]], output_file: str) -> None:
                 f'<img src="{job.get("company_logo_url")}" alt="{job.get("company", "Company")} Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;"/>')
 
         description_parts.extend([
-            f'<p><strong>Company:</strong> {job.get("company", "N/A")}</p>',
-            f'<p><strong>Location:</strong> {job.get("location", "N/A")}</p>'
+            f'<p>Company: {job.get("company", "N/A")}</p>',
+            f'<p>Location: {job.get("location", "N/A")}</p>'
         ])
 
         # Add new metadata fields
         if job.get('employment_type'):
             description_parts.append(
-                f'<p><strong>Employment Type:</strong> {job.get("employment_type")}</p>')
+                f'<p>Employment Type: {job.get("employment_type")}</p>')
 
         if job.get('industry'):
             description_parts.append(
-                f'<p><strong>Industry:</strong> {job.get("industry")}</p>')
+                f'<p>Industry: {job.get("industry")}</p>')
 
         if job.get('job_function'):
             description_parts.append(
-                f'<p><strong>Job Function:</strong> {job.get("job_function")}</p>')
+                f'<p>Job Function: {job.get("job_function")}</p>')
 
         if job.get('closing_date'):
-            description_parts.append(
-                f'<p><strong>Closing Date:</strong> {job.get("closing_date")}</p>')
+            # Extract just the date part from "Closing date for applications: 31/10/2025"
+            closing_text = job.get('closing_date')
+            if ":" in closing_text:
+                date_part = closing_text.split(":", 1)[1].strip()
+                description_parts.append(
+                    f'<p>Closing Date: Closing date for applications: <strong>{date_part}</strong></p>')
+            else:
+                description_parts.append(
+                    f'<p>Closing Date: <strong>{closing_text}</strong></p>')
 
         # Added by information
         if job.get('added_by_name') or job.get('added_by_company'):
             added_by_info = []
             if job.get('added_by_name'):
-                added_by_info.append(job.get('added_by_name'))
+                added_by_info.append(
+                    f"<strong>{job.get('added_by_name')}</strong>")
             if job.get('added_by_company'):
                 added_by_info.append(f"({job.get('added_by_company')})")
             description_parts.append(
-                f'<p><strong>Added by:</strong> {" ".join(added_by_info)}</p>')
+                f'<p>Added by: {" ".join(added_by_info)}</p>')
 
         description_parts.extend([
-            f'<p><strong>Description:</strong></p>',
+            '<p>Description:</p>',
             f'<p>{job.get("description", "No description available")}</p>',
-            f'<p><strong>Requirements:</strong></p>',
+            '<p>Requirements:</p>',
             f'<p>{job.get("requirements", "No requirements specified")}</p>'
         ])
 
@@ -190,41 +198,49 @@ def create_json_feed(jobs_data: List[Dict[str, Any]], output_file: str) -> None:
                 f'<img src="{job.get("company_logo_url")}" alt="{job.get("company", "Company")} Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;"/>')
 
         content_parts.extend([
-            f'<p><strong>Company:</strong> {job.get("company", "N/A")}</p>',
-            f'<p><strong>Location:</strong> {job.get("location", "N/A")}</p>'
+            f'<p>Company: {job.get("company", "N/A")}</p>',
+            f'<p>Location: {job.get("location", "N/A")}</p>'
         ])
 
         # Add new metadata fields
         if job.get('employment_type'):
             content_parts.append(
-                f'<p><strong>Employment Type:</strong> {job.get("employment_type")}</p>')
+                f'<p>Employment Type: {job.get("employment_type")}</p>')
 
         if job.get('industry'):
             content_parts.append(
-                f'<p><strong>Industry:</strong> {job.get("industry")}</p>')
+                f'<p>Industry: {job.get("industry")}</p>')
 
         if job.get('job_function'):
             content_parts.append(
-                f'<p><strong>Job Function:</strong> {job.get("job_function")}</p>')
+                f'<p>Job Function: {job.get("job_function")}</p>')
 
         if job.get('closing_date'):
-            content_parts.append(
-                f'<p><strong>Closing Date:</strong> {job.get("closing_date")}</p>')
+            # Extract just the date part from "Closing date for applications: 31/10/2025"
+            closing_text = job.get('closing_date')
+            if ":" in closing_text:
+                date_part = closing_text.split(":", 1)[1].strip()
+                content_parts.append(
+                    f'<p>Closing Date: Closing date for applications: <strong>{date_part}</strong></p>')
+            else:
+                content_parts.append(
+                    f'<p>Closing Date: <strong>{closing_text}</strong></p>')
 
         # Added by information
         if job.get('added_by_name') or job.get('added_by_company'):
             added_by_info = []
             if job.get('added_by_name'):
-                added_by_info.append(job.get('added_by_name'))
+                added_by_info.append(
+                    f"<strong>{job.get('added_by_name')}</strong>")
             if job.get('added_by_company'):
                 added_by_info.append(f"({job.get('added_by_company')})")
             content_parts.append(
-                f'<p><strong>Added by:</strong> {" ".join(added_by_info)}</p>')
+                f'<p>Added by: {" ".join(added_by_info)}</p>')
 
         content_parts.extend([
-            '<p><strong>Description:</strong></p>',
+            '<p>Description:</p>',
             f'<p>{job.get("description", "No description available")}</p>',
-            '<p><strong>Requirements:</strong></p>',
+            '<p>Requirements:</p>',
             f'<p>{job.get("requirements", "No requirements specified")}</p>'
         ])
 
@@ -376,35 +392,43 @@ def create_html_index(jobs_data: List[Dict[str, Any]], output_file: str) -> None
 
         # Build comprehensive metadata
         job_meta_parts.append(
-            f"<strong>Company:</strong> {job.get('company', 'Unknown')}")
+            f"Company: {job.get('company', 'Unknown')}")
         job_meta_parts.append(
-            f"<strong>Location:</strong> {job.get('location', 'Unknown')}")
+            f"Location: {job.get('location', 'Unknown')}")
 
         if job.get('employment_type'):
             job_meta_parts.append(
-                f"<strong>Employment Type:</strong> {job.get('employment_type')}")
+                f"Employment Type: {job.get('employment_type')}")
 
         if job.get('industry'):
             job_meta_parts.append(
-                f"<strong>Industry:</strong> {job.get('industry')}")
+                f"Industry: {job.get('industry')}")
 
         if job.get('job_function'):
             job_meta_parts.append(
-                f"<strong>Job Function:</strong> {job.get('job_function')}")
+                f"Job Function: {job.get('job_function')}")
 
         if job.get('closing_date'):
-            job_meta_parts.append(
-                f"<strong>Closing Date:</strong> {job.get('closing_date')}")
+            # Extract just the date part from "Closing date for applications: 31/10/2025"
+            closing_text = job.get('closing_date')
+            if ":" in closing_text:
+                date_part = closing_text.split(":", 1)[1].strip()
+                job_meta_parts.append(
+                    f"Closing Date: Closing date for applications: <strong>{date_part}</strong>")
+            else:
+                job_meta_parts.append(
+                    f"Closing Date: <strong>{closing_text}</strong>")
 
         # Added by information
         if job.get('added_by_name') or job.get('added_by_company'):
             added_by_info = []
             if job.get('added_by_name'):
-                added_by_info.append(job.get('added_by_name'))
+                added_by_info.append(
+                    f"<strong>{job.get('added_by_name')}</strong>")
             if job.get('added_by_company'):
                 added_by_info.append(f"({job.get('added_by_company')})")
             job_meta_parts.append(
-                f"<strong>Added by:</strong> {' '.join(added_by_info)}")
+                f"Added by: {' '.join(added_by_info)}")
 
         job_meta_html = " | ".join(job_meta_parts)
 
@@ -469,7 +493,7 @@ def generate_all_feeds(json_file: str, output_dir: str) -> None:
 
 if __name__ == "__main__":
     # Generate feeds from default location
-    input_file = "data/jobs.json"
+    input_file = "data/jobs_raw.json"
     output_dir = "data"
 
     if os.path.exists(input_file):
