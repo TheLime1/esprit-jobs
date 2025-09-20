@@ -1,0 +1,7 @@
+requestsselenium==4.15.2
+
+beautifulsoup4beautifulsoup4==4.12.2
+
+seleniumrequests==2.31.0
+
+lxmllxml==4.9.3

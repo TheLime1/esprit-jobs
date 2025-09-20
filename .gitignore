@@ -1,0 +1,220 @@
+# Logs# Python
+
+logs/__pycache__/
+
+*.log*.py[cod]
+
+*$py.class
+
+# Runtime data*.so
+
+pids.Python
+
+*.pidbuild/
+
+*.seeddevelop-eggs/
+
+*.pid.lockdist/
+
+downloads/
+
+# Coverage directory used by tools like istanbuleggs/
+
+coverage/.eggs/
+
+lib/
+
+# Dependency directorieslib64/
+
+node_modules/parts/
+
+venv/sdist/
+
+env/var/
+
+.envwheels/
+
+pip-wheel-metadata/
+
+# Optional npm cache directoryshare/python-wheels/
+
+.npm*.egg-info/
+
+.installed.cfg
+
+# Optional REPL history*.egg
+
+.node_repl_historyMANIFEST
+
+
+
+# Output of 'npm pack'# PyInstaller
+
+*.tgz*.manifest
+
+*.spec
+
+# Yarn Integrity file
+
+.yarn-integrity# Unit test / coverage reports
+
+htmlcov/
+
+# dotenv environment variables file.tox/
+
+.env.nox/
+
+.env.test.coverage
+
+.coverage.*
+
+# Scraped data.cache
+
+docs/nosetests.xml
+
+*.jsoncoverage.xml
+
+*.xml*.cover
+
+*.py,cover
+
+# Browser files.hypothesis/
+
+*.crx.pytest_cache/
+
+*.xpi
+
+# Selenium
+
+# Pythonchromedriver*
+
+__pycache__/geckodriver*
+
+*.py[cod]selenium-debug.log
+
+*$py.class
+
+*.so# Virtual environments
+
+.Python.env
+
+build/.venv
+
+develop-eggs/env/
+
+dist/venv/
+
+downloads/ENV/
+
+eggs/env.bak/
+
+.eggs/venv.bak/
+
+lib/
+
+lib64/# IDE
+
+parts/.vscode/
+
+sdist/.idea/
+
+var/*.swp
+
+wheels/*.swo
+
+*.egg-info/
+
+.installed.cfg# OS
+
+*.egg.DS_Store
+
+.DS_Store?
+
+# PyInstaller._*
+
+*.manifest.Spotlight-V100
+
+*.spec.Trashes
+
+ehthumbs.db
+
+# Installer logsThumbs.db
+
+pip-log.txt
+
+pip-delete-this-directory.txt# Logs
+
+*.log
+
+# Unit test / coverage reports
+
+htmlcov/# Local test files
+
+.tox/test_*.xml
+
+.coveragedebug_*.html
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
