@@ -1,0 +1,78 @@
+name: Scrape Esprit Jobs
+
+on:
+  schedule:
+    # Run every day at 9 AM UTC (adjust timezone as needed)
+    - cron: "0 9 * * *"
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [main]
+    paths:
+      - "esprit_job_scraper.py"
+      - ".github/workflows/scrape-jobs.yml"
+
+jobs:
+  scrape-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y firefox firefox-geckodriver
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run job scraper
+        env:
+          ESPRIT_EMAIL: ${{ secrets.ESPRIT_EMAIL }}
+          ESPRIT_PASSWORD: ${{ secrets.ESPRIT_PASSWORD }}
+        run: |
+          python esprit_job_scraper.py
+
+      - name: Upload scraped data as artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: scraped-jobs-${{ github.run_number }}
+          path: |
+            output/
+            scraper.log
+          retention-days: 30
+
+      - name: Commit and push results (if on main branch)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Add output files if they exist
+          if [ -d "output" ]; then
+            git add output/
+            if ! git diff --cached --quiet; then
+              git commit -m "Update scraped jobs - $(date -u +"%Y-%m-%d %H:%M UTC")"
+              git push
+            else
+              echo "No changes to commit"
+            fi
+          else
+            echo "No output directory found"
+          fi
+
+      - name: Deploy to GitHub Pages (if jobs.json exists)
+        if: github.ref == 'refs/heads/main' && hashFiles('output/jobs.json') != ''
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          destination_dir: data

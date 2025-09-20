@@ -1,7 +1,6 @@
-requestsselenium==4.15.2
-
-beautifulsoup4beautifulsoup4==4.12.2
-
-seleniumrequests==2.31.0
-
-lxmllxml==4.9.3
+selenium==4.15.2
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml==4.9.3
+pytest==7.4.3
+pytest-html==4.1.1

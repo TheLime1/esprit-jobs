@@ -1,164 +1,326 @@
-# Logs# Python
+# Byte-compiled / optimized / DLL files# Logs
 
-logs/__pycache__/
+__pycache__/*.log
 
-*.log*.py[cod]
+*.py[cod]logs/
 
 *$py.class
 
-# Runtime data*.so
+# Python
 
-pids.Python
+# C extensions__pycache__/
 
-*.pidbuild/
+*.so*.py[cod]
 
-*.seeddevelop-eggs/
+*$py.class
 
-*.pid.lockdist/
+# Distribution / packaging
 
-downloads/
+.Python# Runtime data
 
-# Coverage directory used by tools like istanbuleggs/
+build/pids/
 
-coverage/.eggs/
+develop-eggs/*.pid
 
-lib/
+dist/*.seed
 
-# Dependency directorieslib64/
+downloads/*.pid.lock
 
-node_modules/parts/
+eggs/
 
-venv/sdist/
+.eggs/# Python build
 
-env/var/
+lib/build/
 
-.envwheels/
+lib64/develop-eggs/
+
+parts/dist/
+
+sdist/downloads/
+
+var/
+
+wheels/# Coverage directory used by tools like istanbuleggs/
 
 pip-wheel-metadata/
 
-# Optional npm cache directoryshare/python-wheels/
-
-.npm*.egg-info/
-
-.installed.cfg
-
-# Optional REPL history*.egg
-
-.node_repl_historyMANIFEST
-
-
-
-# Output of 'npm pack'# PyInstaller
-
-*.tgz*.manifest
-
-*.spec
-
-# Yarn Integrity file
-
-.yarn-integrity# Unit test / coverage reports
-
-htmlcov/
-
-# dotenv environment variables file.tox/
-
-.env.nox/
-
-.env.test.coverage
-
-.coverage.*
-
-# Scraped data.cache
-
-docs/nosetests.xml
-
-*.jsoncoverage.xml
-
-*.xml*.cover
-
-*.py,cover
-
-# Browser files.hypothesis/
-
-*.crx.pytest_cache/
-
-*.xpi
-
-# Selenium
-
-# Pythonchromedriver*
-
-__pycache__/geckodriver*
-
-*.py[cod]selenium-debug.log
-
-*$py.class
-
-*.so# Virtual environments
-
-.Python.env
-
-build/.venv
-
-develop-eggs/env/
-
-dist/venv/
-
-downloads/ENV/
-
-eggs/env.bak/
-
-.eggs/venv.bak/
-
-lib/
-
-lib64/# IDE
-
-parts/.vscode/
-
-sdist/.idea/
-
-var/*.swp
-
-wheels/*.swo
+share/python-wheels/coverage/.eggs/
 
 *.egg-info/
 
-.installed.cfg# OS
+.installed.cfglib/
 
-*.egg.DS_Store
+*.egg
 
-.DS_Store?
+MANIFEST# Dependency directorieslib64/
 
-# PyInstaller._*
 
-*.manifest.Spotlight-V100
 
-*.spec.Trashes
+# PyInstallernode_modules/parts/
 
-ehthumbs.db
+#  Usually these files are written by a python script from a template
 
-# Installer logsThumbs.db
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.venv/sdist/
+
+*.manifest
+
+*.specenv/var/
+
+
+
+# Installer logs.envwheels/
 
 pip-log.txt
 
-pip-delete-this-directory.txt# Logs
+pip-delete-this-directory.txtpip-wheel-metadata/
+
+
+
+# Unit test / coverage reports# Optional npm cache directoryshare/python-wheels/
+
+htmlcov/
+
+.tox/.npm*.egg-info/
+
+.nox/
+
+.coverage.installed.cfg
+
+.coverage.*
+
+.cache# Optional REPL history*.egg
+
+nosetests.xml
+
+coverage.xml.node_repl_historyMANIFEST
+
+*.cover
+
+*.py,cover
+
+.hypothesis/
+
+.pytest_cache/# Output of 'npm pack'# PyInstaller
+
+
+
+# Translations*.tgz*.manifest
+
+*.mo
+
+*.pot*.spec
+
+
+
+# Django stuff:# Yarn Integrity file
 
 *.log
 
-# Unit test / coverage reports
+local_settings.py.yarn-integrity# Unit test / coverage reports
 
-htmlcov/# Local test files
+db.sqlite3
+
+db.sqlite3-journalhtmlcov/
+
+
+
+# Flask stuff:# dotenv environment variables file.tox/
+
+instance/
+
+.webassets-cache.env.nox/
+
+
+
+# Scrapy stuff:.env.test.coverage
+
+.scrapy
+
+.coverage.*
+
+# Sphinx documentation
+
+docs/_build/# Scraped data.cache
+
+
+
+# PyBuilderdocs/nosetests.xml
+
+target/
+
+*.jsoncoverage.xml
+
+# Jupyter Notebook
+
+.ipynb_checkpoints*.xml*.cover
+
+
+
+# IPython*.py,cover
+
+profile_default/
+
+ipython_config.py# Browser files.hypothesis/
+
+
+
+# pyenv*.crx.pytest_cache/
+
+.python-version
+
+*.xpi
+
+# pipenv
+
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.# Selenium
+
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not# Pythonchromedriver*
+
+#   install all needed dependencies.
+
+#Pipfile.lock__pycache__/geckodriver*
+
+
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow*.py[cod]selenium-debug.log
+
+__pypackages__/
+
+*$py.class
+
+# Celery stuff
+
+celerybeat-schedule*.so# Virtual environments
+
+celerybeat.pid
+
+.Python.env
+
+# SageMath parsed files
+
+*.sage.pybuild/.venv
+
+
+
+# Environmentsdevelop-eggs/env/
+
+.env
+
+.venvdist/venv/
+
+env/
+
+venv/downloads/ENV/
+
+ENV/
+
+env.bak/eggs/env.bak/
+
+venv.bak/
+
+.eggs/venv.bak/
+
+# Spyder project settings
+
+.spyderprojectlib/
+
+.spyproject
+
+lib64/# IDE
+
+# Rope project settings
+
+.ropeprojectparts/.vscode/
+
+
+
+# mkdocs documentationsdist/.idea/
+
+/site
+
+var/*.swp
+
+# mypy
+
+.mypy_cache/wheels/*.swo
+
+.dmypy.json
+
+dmypy.json*.egg-info/
+
+
+
+# Pyre type checker.installed.cfg# OS
+
+.pyre/
+
+*.egg.DS_Store
+
+# Project specific
+
+# Configuration files with secrets.DS_Store?
+
+config/secrets.py
+
+# PyInstaller._*
+
+# Output data and logs
+
+data/*.json*.manifest.Spotlight-V100
+
+data/*.xml
+
+data/*.html*.spec.Trashes
+
+*.log
+
+scraper_state.jsonehthumbs.db
+
+
+
+# Temporary test files# Installer logsThumbs.db
+
+test_*.py
+
+debug_*.pypip-log.txt
+
+*_test.py
+
+*.htmlpip-delete-this-directory.txt# Logs
+
+test_*.json
+
+*.log
+
+# IDE
+
+.vscode/# Unit test / coverage reports
+
+.idea/
+
+*.swphtmlcov/# Local test files
+
+*.swo
 
 .tox/test_*.xml
 
-.coveragedebug_*.html
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# OS generated files
+
+.DS_Store.coveragedebug_*.html
+
+.DS_Store?.coverage.*
+
+._*.cache
+
+.Spotlight-V100nosetests.xml
+
+.Trashescoverage.xml
+
+ehthumbs.db*.cover
+
+Thumbs.db.hypothesis/
 .pytest_cache/
 
 # Translations
@@ -218,3 +380,6 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Test secrets configuration
+config/secrets.py

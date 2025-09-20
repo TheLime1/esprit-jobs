@@ -1,0 +1,136 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Esprit Connect Jobs Feed",
+  "home_page_url": "https://espritconnect.com/jobs",
+  "feed_url": "https://thelime1.github.io/esprit-jobs/data/jobs.json",
+  "description": "Latest job postings from Esprit Connect",
+  "language": "en",
+  "items": [
+    {
+      "id": "795",
+      "url": "https://espritconnect.com/jobs/795",
+      "title": "Offre d'emploi -Psynarios - Psynarios",
+      "content_html": "<p><strong>Company:</strong> Psynarios</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Bonjour,Ci-dessous le descriptif de l'offre d'emploi.Pour postuler, merci de le faire via celien.-------------------------------------------------------------------------------------------------------...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Bonjour,Ci-dessous le descriptif de l'offre d'emploi.Pour postuler, merci de le faire via celien.-------------------------------------------------------------------------------------------------------...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "psynarios"
+      ],
+      "external_url": "https://espritconnect.com/jobs/795"
+    },
+    {
+      "id": "796",
+      "url": "https://espritconnect.com/jobs/796",
+      "title": "Internship Opportunity – Backend Developer (FastAPI, AI, Microservices) - Backend Developer",
+      "content_html": "<p><strong>Company:</strong> Backend Developer</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Ci-joint le descriptif de l'offre de stage PFE.Pour postuler, merci de le faire via ceformulaire</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Ci-joint le descriptif de l'offre de stage PFE.Pour postuler, merci de le faire via ceformulaire",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "backend developer"
+      ],
+      "external_url": "https://espritconnect.com/jobs/796"
+    },
+    {
+      "id": "797",
+      "url": "https://espritconnect.com/jobs/797",
+      "title": "Offre d'emploi - DATS connexion",
+      "content_html": "<p><strong>Company:</strong> DATS connexion</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Ci-dessous le descriptif de l'offre d'emploi.Pour postuler, merci de le faire via celien.-----------------------------------------------------------------------------------------------------Bonjour,J’...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Ci-dessous le descriptif de l'offre d'emploi.Pour postuler, merci de le faire via celien.-----------------------------------------------------------------------------------------------------Bonjour,J’...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "dats connexion"
+      ],
+      "external_url": "https://espritconnect.com/jobs/797"
+    },
+    {
+      "id": "798",
+      "url": "https://espritconnect.com/jobs/798",
+      "title": "Offre de stage - RYBSEN",
+      "content_html": "<p><strong>Company:</strong> RYBSEN</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Ci-dessous le descriptif de l'offre de stage.Pour postuler, merci de le faire via celien.-------------------------------------------------------------------------------------------------Je me permets ...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Ci-dessous le descriptif de l'offre de stage.Pour postuler, merci de le faire via celien.-------------------------------------------------------------------------------------------------Je me permets ...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "rybsen"
+      ],
+      "external_url": "https://espritconnect.com/jobs/798"
+    },
+    {
+      "id": "799",
+      "url": "https://espritconnect.com/jobs/799",
+      "title": "Stage PFE : Digital Marketing & Admin - TERRAKODO",
+      "content_html": "<p><strong>Company:</strong> TERRAKODO</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Terrakodo, entreprise innovante spécialisée dans le développement de solutions pour une agriculture durable, recherche un(e)stagiaire PFE en Digital Marketing & Adminpour renforcer son équipe et boost...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Terrakodo, entreprise innovante spécialisée dans le développement de solutions pour une agriculture durable, recherche un(e)stagiaire PFE en Digital Marketing & Adminpour renforcer son équipe et boost...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "terrakodo"
+      ],
+      "external_url": "https://espritconnect.com/jobs/799"
+    },
+    {
+      "id": "800",
+      "url": "https://espritconnect.com/jobs/800",
+      "title": "Offre de stage PFE - Psynarios",
+      "content_html": "<p><strong>Company:</strong> Psynarios</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>About Psynarios:Psynarios stands as the pioneering scientific solution designed by psychiatrists to promote a collaborative and humane management.It is a virtual role-play platform based on contextual...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "About Psynarios:Psynarios stands as the pioneering scientific solution designed by psychiatrists to promote a collaborative and humane management.It is a virtual role-play platform based on contextual...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "psynarios"
+      ],
+      "external_url": "https://espritconnect.com/jobs/800"
+    },
+    {
+      "id": "801",
+      "url": "https://espritconnect.com/jobs/801",
+      "title": "Offre de stage PFE - MSB & MEDTECH",
+      "content_html": "<p><strong>Company:</strong> MSB & MEDTECH</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Ci-dessous le descriptif de l'offre de stage.Pour postuler, merci de le faire uniquement via celien.----------------------------------------------------------------------------------------------------...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Ci-dessous le descriptif de l'offre de stage.Pour postuler, merci de le faire uniquement via celien.----------------------------------------------------------------------------------------------------...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "msb & medtech"
+      ],
+      "external_url": "https://espritconnect.com/jobs/801"
+    },
+    {
+      "id": "802",
+      "url": "https://espritconnect.com/jobs/802",
+      "title": "Offre d'emploi - HUAWEI",
+      "content_html": "<p><strong>Company:</strong> HUAWEI</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Ci-dessous le descriptif de l'offre d'emploi.Pour postuler, merci de le faire uniquement via celien.Descriptif de l'offre en attaché.-------------------------------------------------------------------...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Ci-dessous le descriptif de l'offre d'emploi.Pour postuler, merci de le faire uniquement via celien.Descriptif de l'offre en attaché.-------------------------------------------------------------------...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "huawei"
+      ],
+      "external_url": "https://espritconnect.com/jobs/802"
+    },
+    {
+      "id": "803",
+      "url": "https://espritconnect.com/jobs/803",
+      "title": "Offre de stage PFE - Komax Testing Tunisia",
+      "content_html": "<p><strong>Company:</strong> Komax Testing Tunisia</p>\n            <p><strong>Location:</strong> N/A</p>\n            <p><strong>Description:</strong></p>\n            <p>Ci-dessous le descriptif de l'offre de stage.Pour postuler, merci de le faire uniquement via celien.----------------------------------------------------------------------------------------Pour les02 t...</p>\n            <p><strong>Requirements:</strong></p>\n            <p>No requirements specified</p>",
+      "summary": "Ci-dessous le descriptif de l'offre de stage.Pour postuler, merci de le faire uniquement via celien.----------------------------------------------------------------------------------------Pour les02 t...",
+      "date_published": "",
+      "tags": [
+        "jobs",
+        "esprit",
+        "komax testing tunisia"
+      ],
+      "external_url": "https://espritconnect.com/jobs/803"
+    }
+  ]
+}
