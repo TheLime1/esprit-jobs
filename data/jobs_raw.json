@@ -16,7 +16,7 @@
     "closing_date": "Closing date for applications: 15/10/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:20:31.104527"
+    "scraped_at": "2025-09-20T16:30:35.882509"
   },
   {
     "job_id": 796,
@@ -35,7 +35,7 @@
     "closing_date": "Closing date for applications: 31/10/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:20:36.639502"
+    "scraped_at": "2025-09-20T16:30:42.028359"
   },
   {
     "job_id": 797,
@@ -54,7 +54,7 @@
     "closing_date": "Closing date for applications: 31/10/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:20:40.857317"
+    "scraped_at": "2025-09-20T16:30:46.677427"
   },
   {
     "job_id": 798,
@@ -73,7 +73,7 @@
     "closing_date": "Closing date for applications: 04/11/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:20:45.179095"
+    "scraped_at": "2025-09-20T16:30:51.204842"
   },
   {
     "job_id": 799,
@@ -92,7 +92,7 @@
     "closing_date": "Closing date for applications: 31/10/2025",
     "added_by_name": "Dr. Inès  Burrus",
     "added_by_company": "TERRAKODO",
-    "scraped_at": "2025-09-20T16:20:49.209341"
+    "scraped_at": "2025-09-20T16:30:55.556354"
   },
   {
     "job_id": 800,
@@ -111,7 +111,7 @@
     "closing_date": "Closing date for applications: 12/12/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:20:54.543310"
+    "scraped_at": "2025-09-20T16:31:00.332295"
   },
   {
     "job_id": 801,
@@ -130,7 +130,7 @@
     "closing_date": "Closing date for applications: 15/12/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:20:58.736295"
+    "scraped_at": "2025-09-20T16:31:04.861207"
   },
   {
     "job_id": 802,
@@ -149,7 +149,7 @@
     "closing_date": "Closing date for applications: 15/12/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:21:02.996490"
+    "scraped_at": "2025-09-20T16:31:09.577998"
   },
   {
     "job_id": 803,
@@ -168,6 +168,44 @@
     "closing_date": "Closing date for applications: 19/12/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-09-20T16:21:07.138874"
+    "scraped_at": "2025-09-20T16:31:14.107452"
+  },
+  {
+    "job_id": 804,
+    "title": "Unknown Title",
+    "company": "Unknown Company",
+    "location": "Unknown Location",
+    "description": "No description available",
+    "requirements": "No requirements specified",
+    "posted_date": "Unknown Date",
+    "url": "https://espritconnect.com/jobs/804",
+    "image_url": null,
+    "company_logo_url": null,
+    "employment_type": null,
+    "industry": null,
+    "job_function": null,
+    "closing_date": "Closing date for applications:",
+    "added_by_name": null,
+    "added_by_company": null,
+    "scraped_at": "2025-09-20T16:31:18.790368"
+  },
+  {
+    "job_id": 805,
+    "title": "Unknown Title",
+    "company": "Unknown Company",
+    "location": "Unknown Location",
+    "description": "No description available",
+    "requirements": "No requirements specified",
+    "posted_date": "Unknown Date",
+    "url": "https://espritconnect.com/jobs/805",
+    "image_url": null,
+    "company_logo_url": null,
+    "employment_type": null,
+    "industry": null,
+    "job_function": null,
+    "closing_date": "Closing date for applications:",
+    "added_by_name": null,
+    "added_by_company": null,
+    "scraped_at": "2025-09-20T16:31:23.580871"
   }
 ]

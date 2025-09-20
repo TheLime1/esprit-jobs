@@ -11,6 +11,19 @@ from xml.dom import minidom
 from typing import List, Dict, Any
 
 
+def smart_truncate(text: str, max_length: int = 1000) -> str:
+    """Truncate text at word boundary and add ellipsis if needed"""
+    if len(text) <= max_length:
+        return text
+
+    # Find the last space before max_length to avoid cutting words
+    last_space = text.rfind(' ', 0, max_length)
+    if last_space > max_length * 0.8:  # Only use word boundary if it's not too far back
+        return text[:last_space] + "..."
+    else:
+        return text[:max_length] + "..."
+
+
 def create_rss_feed(jobs_data: List[Dict[str, Any]], output_file: str) -> None:
     """Create RSS 2.0 feed from jobs data"""
 
@@ -217,12 +230,27 @@ def create_json_feed(jobs_data: List[Dict[str, Any]], output_file: str) -> None:
 
         content_html = "\n            ".join(content_parts)
 
+        # Create summary with target of 1000 characters (no truncation)
+        description = job.get('description', '')
+        requirements = job.get('requirements', '')
+
+        # Combine description and requirements to try to reach 1000 chars
+        combined_text = description
+        if len(combined_text) < 1000 and requirements and requirements != "No requirements specified":
+            combined_text += f"\n\nRequirements: {requirements}"
+
+        # Use all available content, aim for 1000 but don't cut words
+        if len(combined_text) <= 1000:
+            summary = combined_text  # Use all content if 1000 chars or less
+        else:
+            summary = smart_truncate(combined_text, 1000)
+
         item = {
             "id": str(job.get('job_id', '')),
             "url": job.get('url', ''),
             "title": f"{job.get('title', 'Unknown')} - {job.get('company', 'Unknown Company')}",
             "content_html": content_html,
-            "summary": job.get('description', '')[:1500] + "..." if len(job.get('description', '')) > 1500 else job.get('description', ''),
+            "summary": summary,
             "date_published": job.get('scraped_at', ''),
             "tags": ["jobs", "esprit", job.get('company', '').lower()],
             "external_url": job.get('url', '')
@@ -392,7 +420,7 @@ def create_html_index(jobs_data: List[Dict[str, Any]], output_file: str) -> None
                 {job_meta_html}
             </div>
             <div class="job-description">
-                <p>{job.get('description', 'No description available')[:300]}...</p>
+                <p>{smart_truncate(job.get('description', 'No description available'), 1000)}</p>
             </div>
             <div style="clear: both;"></div>
         </div>
