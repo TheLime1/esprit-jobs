@@ -270,8 +270,6 @@ config/secrets.py
 
 data/*.json*.manifest.Spotlight-V100
 
-data/*.xml
-
 data/*.html*.spec.Trashes
 
 *.log
