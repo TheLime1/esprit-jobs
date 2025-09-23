@@ -27,7 +27,19 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y firefox firefox-geckodriver
+          sudo apt-get install -y firefox
+
+      - name: Install geckodriver
+        run: |
+          # Get latest geckodriver version
+          GECKODRIVER_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
+          # Download and install geckodriver
+          wget -q https://github.com/mozilla/geckodriver/releases/download/$GECKODRIVER_VERSION/geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz
+          tar -xzf geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz
+          sudo mv geckodriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/geckodriver
+          # Verify installation
+          geckodriver --version
 
       - name: Install Python dependencies
         run: |
