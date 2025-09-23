@@ -71,12 +71,12 @@ driver = webdriver.Chrome(options=options)  # Auto-managed by Selenium 4.15+
 
 ### Core Components
 
-| File | Purpose | Key Features |
-|------|---------|--------------|
-| `esprit_job_scraper.py` | Main scraper engine | Authentication, job extraction, state management |
-| `generate_feeds.py` | Feed generator | RSS/JSON/HTML creation with statistics |
-| `run_scraper.py` | Workflow orchestrator | Complete pipeline execution |
-| `scraper_state.json` | State persistence | Last job ID and progress tracking |
+| File                    | Purpose               | Key Features                                     |
+| ----------------------- | --------------------- | ------------------------------------------------ |
+| `esprit_job_scraper.py` | Main scraper engine   | Authentication, job extraction, state management |
+| `generate_feeds.py`     | Feed generator        | RSS/JSON/HTML creation with statistics           |
+| `run_scraper.py`        | Workflow orchestrator | Complete pipeline execution                      |
+| `scraper_state.json`    | State persistence     | Last job ID and progress tracking                |
 
 ### Data Flow
 
