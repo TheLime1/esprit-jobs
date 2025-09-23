@@ -21,7 +21,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
 from bs4 import BeautifulSoup
 
@@ -116,12 +116,14 @@ class EspritJobScraper:
             logger.info(
                 f"🔄 Starting from job ID {self.current_job_id} (current-1) for duplicate safety")
 
-        # Configure Firefox options
-        self.firefox_options = Options()
+        # Configure Chrome options
+        self.chrome_options = Options()
         if headless:
-            self.firefox_options.add_argument('--headless')
-        self.firefox_options.add_argument('--no-sandbox')
-        self.firefox_options.add_argument('--disable-dev-shm-usage')
+            self.chrome_options.add_argument('--headless')
+        self.chrome_options.add_argument('--no-sandbox')
+        self.chrome_options.add_argument('--disable-dev-shm-usage')
+        self.chrome_options.add_argument('--disable-gpu')
+        self.chrome_options.add_argument('--window-size=1920,1080')
 
         self.driver = None
         self.wait = None
@@ -210,7 +212,7 @@ class EspritJobScraper:
 
     def __enter__(self):
         """Context manager entry"""
-        self.driver = webdriver.Firefox(options=self.firefox_options)
+        self.driver = webdriver.Chrome(options=self.chrome_options)
         self.driver.implicitly_wait(10)
         self.wait = WebDriverWait(self.driver, 20)
         return self
