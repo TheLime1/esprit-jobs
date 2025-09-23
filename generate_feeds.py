@@ -478,6 +478,9 @@ def generate_all_feeds(json_file: str, output_dir: str) -> None:
     with open(json_file, 'r', encoding='utf-8') as f:
         jobs_data = json.load(f)
 
+    # Sort jobs by job_id in descending order (newest first)
+    jobs_data.sort(key=lambda job: job.get('job_id', 0), reverse=True)
+
     print(f"📊 Generating feeds for {len(jobs_data)} jobs...")
 
     # Create output directory
