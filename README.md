@@ -1,277 +1,160 @@
-# Enhanced Esprit Jobs RSS Feed
+# Esprit Jobs RSS Feed
 
-A web scraper for job postings from EspritConnect with automated testing capabilities. This repository automatically scrapes individual job postings from [EspritConnect](https://espritconnect.com/jobs) and generates comprehensive RSS and JSON feeds with images, deployed via GitHub Pages.
+An automated web scraper for job postings from EspritConnect that generates RSS feeds and JSON data, deployed via GitHub Pages.
 
 ## 📡 Live Feeds
 
-- **RSS Feed**: [https://thelime1.github.io/esprit-jobs/feed.xml](https://thelime1.github.io/esprit-jobs/feed.xml)
-- **JSON Feed**: [https://thelime1.github.io/esprit-jobs/jobs.json](https://thelime1.github.io/esprit-jobs/jobs.json)
-- **GitHub Pages**: [https://thelime1.github.io/esprit-jobs/](https://thelime1.github.io/esprit-jobs/)
+- **RSS Feed**: [https://thelime1.github.io/esprit-jobs/data/feed.xml](https://thelime1.github.io/esprit-jobs/data/feed.xml)
+- **JSON Feed**: [https://thelime1.github.io/esprit-jobs/data/jobs.json](https://thelime1.github.io/esprit-jobs/data/jobs.json)
+- **Web Interface**: [https://thelime1.github.io/esprit-jobs/data/](https://thelime1.github.io/esprit-jobs/data/)
 
-## 🧪 Testing Framework
-
-This project includes comprehensive automated testing for the EspritConnect login functionality.
-
-### Setup
-
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Configure Credentials**:
-   Create a `config/secrets.py` file with your credentials:
-   ```python
-   ESPRIT_EMAIL = "your.email@esprit.tn"
-   ESPRIT_PASSWORD = "your_password"
-   ```
-   
-   Alternatively, set environment variables:
-   ```bash
-   export ESPRIT_EMAIL="your.email@esprit.tn"
-   export ESPRIT_PASSWORD="your_password"
-   ```
-
-3. **Install Firefox WebDriver**:
-   Download [geckodriver](https://github.com/mozilla/geckodriver/releases) and add it to your PATH.
-
-### Running Tests
-
-**Run all login tests**:
-```bash
-python run_tests.py
-```
-
-**Run specific test**:
-```bash
-python run_tests.py TestEspritLogin::test_esprit_login_to_jobs
-```
-
-**Using pytest directly**:
-```bash
-# Run all tests
-pytest tests/test_esprit_login.py -v
-
-# Run only login tests
-pytest tests/test_esprit_login.py::TestEspritLogin::test_esprit_login_to_jobs -v
-
-# Run with detailed output
-pytest tests/test_esprit_login.py -v -s
-```
-
-### Test Features
-
-- ✅ **Secure credential management** - No hardcoded passwords
-- ✅ **Explicit waits** - Better reliability than implicit waits
-- ✅ **Error handling** - Screenshots on failure for debugging
-- ✅ **Cookie consent handling** - Automatically handles privacy banners
-- ✅ **Clean code** - Removed unnecessary mouse movements from Selenium IDE
-- ✅ **Multiple test scenarios** - Valid and invalid login testing
-- ✅ **Cross-platform support** - Works on Windows, macOS, and Linux
-
-### Project Structure
-
-```
-esprit-jobs/
-├── config/
-│   └── secrets.py          # Credentials (git-ignored)
-├── tests/
-│   └── test_esprit_login.py # Login test automation
-├── recording/
-│   └── test_loginonetojobs.py # Original Selenium IDE export
-├── requirements.txt         # Python dependencies
-├── pytest.ini             # Pytest configuration
-├── run_tests.py            # Test runner script
-└── README.md              # This file
-```
-
-## 🔄 Automation
-
-The scraper includes GitHub Actions automation that:
-- Runs daily at 9 AM UTC 
-- Scrapes jobs starting from ID 785
-- Stops when it hits non-existent jobs (redirected to home page)
-- Generates RSS, JSON feeds, and HTML index
-- Deploys results to GitHub Pages
-
-### Setting up GitHub Secrets
-
-1. Go to your repository on GitHub
-2. Click **Settings** → **Secrets and variables** → **Actions**
-3. Add these repository secrets:
-   - `ESPRIT_EMAIL`: Your Esprit Connect email
-   - `ESPRIT_PASSWORD`: Your Esprit Connect password
-
-### Manual Run
-
-You can trigger the scraper manually:
-
-```bash
-# Simple run (continues from last position)
-python run_scraper.py
-
-# Custom options
-python run_scraper.py --max-jobs 100 --headless
-
-# Reset to start from job 785 again
-python run_scraper.py --reset
-
-# Test mode
-python run_scraper.py --test-only
-```
-
-### State Management
-
-Control scraper state and progress:
-
-```bash
-# View current state
-python state_manager.py view
-
-# View last scraping summary  
-python state_manager.py summary
-
-# Reset to job 785
-python state_manager.py reset
-
-# Set specific starting job ID
-python state_manager.py set --job-id 850
-```
-
-## 🏗️ Project Architecture
-
-```
-esprit-jobs/
-├── esprit_job_scraper.py   # Main scraper with authentication
-├── generate_feeds.py       # RSS/JSON/HTML feed generator
-├── test_scraper.py         # Scraper test suite
-├── .github/workflows/      # GitHub Actions automation
-├── output/                 # Generated feeds and data
-└── config/secrets.py       # Local credentials (git-ignored)
-```
-
-## 📊 Features
+## 🚀 Features
 
 ### **Authenticated Scraping**
-- Logs into Esprit Connect with credentials
-- Handles cookie consent automatically
-- Scrapes protected job pages
+- Secure login to EspritConnect using credentials
+- Automatic cookie consent handling
+- Access to protected job listings
 
 ### **Smart Job Detection**
-- **Starts from job ID 785** on first run (hardcoded)
-- **Remembers last position** - continues from where it left off
-- Increments through job IDs (786, 787, 788...)
-- Detects non-existent jobs via redirect to home page
-- Stops automatically when no more jobs found
-- **State persistence** - saves progress between runs
+- Sequential job ID scanning starting from job 795
+- Automatic detection of non-existent jobs via redirect
+- State persistence - remembers last scraped position
+- Duplicate prevention with safety checks
 
 ### **Rich Data Extraction**
-- Job title, company, location
-- Full job description and requirements
-- Posted date and images
+- Complete job details: title, company, location, description
+- Requirements, employment type, industry information
+- Posted dates, closing dates, and contact information
+- Company logos and job images
 - Direct links to original postings
 
 ### **Multiple Output Formats**
-- **JSON**: Machine-readable job data
-- **RSS 2.0**: Subscribe in feed readers
-- **HTML**: Human-friendly web interface
-- **Summary**: Quick statistics and overview
+- **RSS 2.0**: Full-featured feed with images and metadata
+- **JSON**: Structured data for API consumption
+- **HTML**: Human-friendly web interface with statistics
 
-## Next Steps
-1. Define your project requirements## 🔄 Automation
+## ⚙️ Setup
 
-2. Set up the development environment
+### 1. Install Dependencies
 
-3. Implement your scraperThe scraper runs automatically:
+```bash
+pip install -r requirements.txt
+```
 
-4. Configure automation- **Every 6 hours** via GitHub Actions schedule
+### 2. Configure Credentials
 
-- **On push to main branch**
+**For local development**, create `config/secrets.py`:
+```python
+ESPRIT_EMAIL = "your.email@esprit.tn"
+ESPRIT_PASSWORD = "your_password"
+```
 
-## Backup- **Manual trigger** available in GitHub Actions
+**For GitHub Actions**, add repository secrets:
+1. Go to Settings → Secrets and variables → Actions
+2. Add `ESPRIT_EMAIL` and `ESPRIT_PASSWORD`
 
+### 3. Browser Requirements
 
+The scraper uses **Chrome with Selenium 4.15+** which automatically manages ChromeDriver - no manual driver installation needed!
 
-Your previous work has been backed up to: `C:\Users\everp\Documents\GitHub\esprit-jobs-backup\`## 🔧 Setup
+## 🎯 Usage
 
-### Required GitHub Secrets
+### Local Testing
 
-Configure these secrets in your repository settings:
+```bash
+# Run the main scraper
+python esprit_job_scraper.py
 
-- `ESPRIT_EMAIL`: Your EspritConnect email address
-- `ESPRIT_PASSWORD`: Your EspritConnect password
+# Run with the complete workflow
+python run_scraper.py
 
-### Enable GitHub Pages
+# Generate feeds from existing data
+python generate_feeds.py
+```
 
-1. Go to repository Settings
-2. Navigate to Pages section
-3. Set Source to "GitHub Actions"
+### Automated Runs
 
-## � Enhanced Features
+The scraper runs automatically via GitHub Actions:
+- **Daily at 9 AM UTC**
+- **On code changes to main branch**
+- **Manual trigger available**
 
-### **Sequential Job Scraping**
-- Scrapes individual job posts starting from ID 795
-- Continues sequentially (796, 797, 798...) until no more jobs found
-- Detects when redirected to feed page (indicates end of available jobs)
-- Extracts detailed information from each job posting
+Results are automatically deployed to GitHub Pages.
 
-### **Image Handling**
-- Downloads and stores job images locally
-- Serves images via GitHub Pages for feed consumption
-- Includes images in both RSS and JSON feeds
-- Optimizes image handling (skips small icons)
-
-### **Multiple Feed Formats**
-- **RSS 2.0**: Full-featured feed with images and media elements
-- **JSON Feed**: Modern format following jsonfeed.org standard
-- **Enhanced HTML**: Beautiful landing page with statistics
-
-### **Rich Content Extraction**
-- Job title, company, location, description
-- Publication dates and metadata
-- Multiple images per job posting
-- Direct links to original job posts
-
-## 🏗️ Structure
+## 🏗️ Project Structure
 
 ```
 esprit-jobs/
+├── esprit_job_scraper.py    # Main scraper with authentication
+├── generate_feeds.py        # RSS/JSON/HTML generator
+├── run_scraper.py           # Complete workflow runner
+├── scraper_state.json       # Persistent state tracking
+├── config/
+│   ├── secrets.py          # Local credentials (git-ignored)
+│   └── secrets_template.py # Template for credentials
+├── data/                   # Generated output files
+│   ├── jobs.json          # Structured job data
+│   ├── jobs_raw.json      # Raw scraped data
+│   ├── feed.xml           # RSS 2.0 feed
+│   ├── index.html         # Web interface
+│   └── summary.json       # Scraping statistics
 ├── .github/workflows/
-│   └── scrape-jobs.yml      # GitHub Actions workflow
-├── docs/                    # GitHub Pages output
-│   ├── index.html          # Landing page
-│   └── jobs.xml            # Generated XML feed
-├── scraper.py              # Main scraping script
-├── requirements.txt        # Python dependencies
-└── README.md              # This file
+│   └── scrape-jobs.yml    # GitHub Actions automation
+└── requirements.txt       # Python dependencies
 ```
 
-## 🔍 XML Format
+## 🔄 How It Works
 
-The generated XML includes:
-- Job title
-- Company name
-- Location
-- Description
-- Date posted
-- Direct link to job posting
+1. **Authentication**: Logs into EspritConnect using provided credentials
+2. **Job Discovery**: Scans job IDs sequentially starting from last position
+3. **Data Extraction**: Extracts comprehensive job information including images
+4. **Duplicate Detection**: Skips already-scraped jobs for efficiency
+5. **Feed Generation**: Creates RSS, JSON, and HTML outputs
+6. **State Management**: Saves progress for next run
+7. **Deployment**: GitHub Actions publishes to GitHub Pages
 
-## 🚀 Manual Execution
+## 🛠️ Technical Details
 
-To run locally:
+- **Language**: Python 3.11+
+- **Web Driver**: Chrome with Selenium 4.15+ (auto-managed drivers)
+- **Dependencies**: Selenium, BeautifulSoup4, Requests, LXML
+- **Deployment**: GitHub Actions → GitHub Pages
+- **State Persistence**: JSON-based state tracking
+- **Error Handling**: Comprehensive logging and screenshot capture
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
+## 📊 Output Data Structure
 
-# Set environment variables
-export ESPRIT_EMAIL="your-email@esprit.tn"
-export ESPRIT_PASSWORD="your-password"
+### RSS Feed
+Standard RSS 2.0 format with:
+- Job titles and descriptions
+- Company information and locations
+- Publication dates and links
+- Embedded images and media
 
-# Run scraper
-python scraper.py
+### JSON Feed
+Structured job data including:
+```json
+{
+  "job_id": 803,
+  "title": "Software Developer",
+  "company": "TechCorp",
+  "location": "Tunis, Tunisia",
+  "description": "Full job description...",
+  "requirements": "Required skills...",
+  "posted_date": "2025-09-20",
+  "url": "https://espritconnect.com/jobs/803",
+  "employment_type": "Full-time",
+  "industry": "Technology"
+}
 ```
+
+## 🔐 Security
+
+- Credentials stored securely in GitHub Secrets
+- No hardcoded passwords in source code
+- Environment variable fallback for local development
+- Git-ignored local configuration files
 
 ## 📝 License
 
-This project is for educational and informational purposes. Please respect EspritConnect's terms of service and rate limits.
+This project is for educational and informational purposes. Please respect EspritConnect's terms of service and implement appropriate rate limiting.
