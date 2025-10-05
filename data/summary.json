@@ -1,44 +1,19 @@
 {
-  "total_jobs": 7,
-  "session_start_job_id": 804,
-  "session_end_job_id": 803,
-  "next_job_id": 804,
-  "scraped_at": "2025-09-20T16:55:07.094518",
+  "total_jobs": 2,
+  "session_start_job_id": 803,
+  "session_end_job_id": 805,
+  "next_job_id": 806,
+  "scraped_at": "2025-10-05T11:24:32.329216",
   "jobs": [
     {
-      "id": 797,
-      "title": "Offre d'emploi - DATS connexion",
-      "company": "DATS connexion"
+      "id": 804,
+      "title": "Offres de stages PFE - ServRobot",
+      "company": "Robonest"
     },
     {
-      "id": 798,
-      "title": "Offre de stage - Rybsen",
-      "company": "RYBSEN"
-    },
-    {
-      "id": 799,
-      "title": "Stage PFE : Digital Marketing & Admin",
-      "company": "TERRAKODO"
-    },
-    {
-      "id": 800,
-      "title": "Offre de stage PFE - Data Scientist",
-      "company": "Psynarios"
-    },
-    {
-      "id": 801,
-      "title": "Offre de stage PFE - MSB & MEDTECH",
-      "company": "MSB & MEDTECH"
-    },
-    {
-      "id": 802,
-      "title": "Offre d'emploi - Huawei",
-      "company": "HUAWEI"
-    },
-    {
-      "id": 803,
-      "title": "Offre de stage PFE",
-      "company": "Komax Testing Tunisia"
+      "id": 805,
+      "title": "Offre de stage PFE en Intelligence Artificielle",
+      "company": "Benman Partners"
     }
   ]
 }
