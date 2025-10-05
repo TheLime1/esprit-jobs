@@ -1,0 +1,19 @@
+{
+  "total_jobs": 2,
+  "session_start_job_id": 803,
+  "session_end_job_id": 805,
+  "next_job_id": 806,
+  "scraped_at": "2025-10-05T11:24:32.329216",
+  "jobs": [
+    {
+      "id": 804,
+      "title": "Offres de stages PFE - ServRobot",
+      "company": "Robonest"
+    },
+    {
+      "id": 805,
+      "title": "Offre de stage PFE en Intelligence Artificielle",
+      "company": "Benman Partners"
+    }
+  ]
+}
