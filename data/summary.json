@@ -1,14 +1,19 @@
 {
-  "total_jobs": 1,
-  "session_start_job_id": 806,
+  "total_jobs": 2,
+  "session_start_job_id": 805,
   "session_end_job_id": 806,
   "next_job_id": 807,
-  "scraped_at": "2025-10-07T09:25:20.093568",
+  "scraped_at": "2025-10-09T09:25:01.263079",
   "jobs": [
     {
-      "id": 805,
-      "title": "Offre de stage PFE en Intelligence Artificielle",
-      "company": "Unknown Company"
+      "id": 804,
+      "title": "Offres de stages PFE - ServRobot",
+      "company": "Robonest"
+    },
+    {
+      "id": 806,
+      "title": "Offre d'emploi - Bassetti",
+      "company": "BASSETTI"
     }
   ]
 }
