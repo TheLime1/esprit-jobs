@@ -640,11 +640,32 @@ class EspritJobScraper:
 
         # Save as raw JSON for feed generation
         raw_json_file = os.path.join(output_dir, "jobs_raw.json")
+        
+        # Load existing jobs to merge with new ones
+        all_jobs = []
+        if os.path.exists(raw_json_file):
+            try:
+                with open(raw_json_file, 'r', encoding='utf-8') as f:
+                    all_jobs = json.load(f)
+                logger.info(f"📂 Loaded {len(all_jobs)} existing jobs from {raw_json_file}")
+            except Exception as e:
+                logger.warning(f"Error loading existing jobs: {e}, starting fresh")
+                all_jobs = []
+        
+        # Add new jobs to the collection
+        existing_job_ids = {job['job_id'] for job in all_jobs if 'job_id' in job}
+        new_jobs_added = 0
+        for job in self.jobs_scraped:
+            job_dict = asdict(job)
+            if job.job_id not in existing_job_ids:
+                all_jobs.append(job_dict)
+                new_jobs_added += 1
+        
+        # Write merged jobs back to file
         with open(raw_json_file, 'w', encoding='utf-8') as f:
-            json.dump([asdict(job) for job in self.jobs_scraped],
-                      f, indent=2, ensure_ascii=False)
+            json.dump(all_jobs, f, indent=2, ensure_ascii=False)
 
-        logger.info(f"Saved {len(self.jobs_scraped)} jobs to {raw_json_file}")
+        logger.info(f"💾 Saved {new_jobs_added} new jobs (total: {len(all_jobs)} jobs) to {raw_json_file}")
 
         # Save summary with state information
         start_id = self.load_last_job_id() if hasattr(self, 'initial_job_id') else 785
