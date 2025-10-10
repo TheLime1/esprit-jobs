@@ -1,19 +1,14 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 805,
+  "total_jobs": 1,
+  "session_start_job_id": 806,
   "session_end_job_id": 806,
   "next_job_id": 807,
-  "scraped_at": "2025-10-09T09:25:01.263079",
+  "scraped_at": "2025-10-10T09:25:35.341939",
   "jobs": [
     {
-      "id": 804,
-      "title": "Offres de stages PFE - ServRobot",
-      "company": "Robonest"
-    },
-    {
-      "id": 806,
-      "title": "Offre d'emploi - Bassetti",
-      "company": "BASSETTI"
+      "id": 805,
+      "title": "Offre de stage PFE en Intelligence Artificielle",
+      "company": "Benman Partners"
     }
   ]
 }

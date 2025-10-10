@@ -1,40 +1,21 @@
 [
   {
-    "job_id": 804,
-    "title": "Offres de stages PFE - ServRobot",
-    "company": "Robonest",
+    "job_id": 805,
+    "title": "Offre de stage PFE en Intelligence Artificielle",
+    "company": "Benman Partners",
     "location": "Internship",
-    "description": "Ci-dessous le descriptif de l'offre de stage.🚀 Rejoignez notre aventure en IA & Robotique ! 🇹🇳Vous êtes passionné(e) parl’Intelligence Artificielle, larobotiqueet les nouvelles technologies ?Vous rêvez de travailler sur un projet innovant qui combinemécatronique, vision par ordinateur et IA conversationnelle?👉 Alors cette opportunité est faite pour vous !Dans le cadre de notre projetServRobot, nous développons lepremier robot conversationnel vocal 100 % tunisien, capable de comprendre et de parler en dialecte tunisien. Un défi technologique et une première en Tunisie qui ouvrira la voie à une nouvelle génération de robots intelligents pour l’industrie, la restauration et les services.🔎 Postes ouverts – 5 stages PFE de 6 mois (hybride) :1️⃣ Électromécanique – NavigationVous participerez au développement de la partienavigation autonomedu robot.Vos missions :Développement et simulation sousROS1/ROS2,GazeboetRViz.Programmation enC++pour le contrôle des moteurs et la gestion de trajectoire.",
+    "description": "En PJ un descriptif du sujet.----------------------------------------------------------------------------------------------------------------------------------Je me permets de vous contacter dans le cadre de la recherche destagiaires PFEpour le compte de l’entrepriseBenman Partners, où je travaille actuellement.L’entreprise, basée à Paris (France), vient d’ouvrir une filiale à Tunis et propose, à l’issue du stage, uneopportunité d’embauche au sein de son équipe en Tunisie.Vous trouverez en pièce jointe l’offre de stage PFE.N’hésitez pas à la partager avec les étudiants susceptibles de correspondre au profil recherché.Je reste bien entendu à votre disposition pour toute information complémentaire.Veuillez agréer, Monsieur, l’expression de mes salutations distinguées.",
     "requirements": "No requirements specified",
     "posted_date": "Unknown Date",
-    "url": "https://espritconnect.com/jobs/804",
+    "url": "https://espritconnect.com/jobs/805",
     "image_url": null,
-    "company_logo_url": "https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/8dd1a698-f859-4e0f-b353-6967001a59e0.jpg",
+    "company_logo_url": "https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/11581d84-628c-46d2-aab0-760f86f87ba7.png",
     "employment_type": null,
     "industry": null,
     "job_function": null,
     "closing_date": "Closing date for applications: 30/12/2025",
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-10-09T09:24:47.512154"
-  },
-  {
-    "job_id": 806,
-    "title": "Offre d'emploi - Bassetti",
-    "company": "BASSETTI",
-    "location": "Contract",
-    "description": "Veuillez postuler uniquement via celien, en PJ un descriptif du sujet.En attaché le job descriptive.Bonne candidature !",
-    "requirements": "No requirements specified",
-    "posted_date": "Unknown Date",
-    "url": "https://espritconnect.com/jobs/806",
-    "image_url": null,
-    "company_logo_url": "https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/936cd490-8047-4261-aa1f-0a854b7edfc2.jpg",
-    "employment_type": null,
-    "industry": null,
-    "job_function": null,
-    "closing_date": "Closing date for applications: 06/01/2026",
-    "added_by_name": "Haidy  Khemiri",
-    "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
-    "scraped_at": "2025-10-09T09:24:55.001956"
+    "scraped_at": "2025-10-10T09:25:25.220500"
   }
 ]
