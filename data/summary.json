@@ -1,44 +1,19 @@
 {
-  "total_jobs": 7,
-  "session_start_job_id": 800,
-  "session_end_job_id": 806,
-  "next_job_id": 807,
-  "scraped_at": "2025-10-10T15:06:52.827189",
+  "total_jobs": 2,
+  "session_start_job_id": 806,
+  "session_end_job_id": 808,
+  "next_job_id": 809,
+  "scraped_at": "2025-10-11T09:20:58.403683",
   "jobs": [
     {
-      "id": 799,
-      "title": "Stage PFE : Digital Marketing & Admin",
-      "company": "TERRAKODO"
+      "id": 807,
+      "title": "Offre de stage – Projet Ifriqya (Start IT)",
+      "company": "Ifriqya (Start IT)"
     },
     {
-      "id": 800,
-      "title": "Offre de stage PFE - Data Scientist",
-      "company": "Psynarios"
-    },
-    {
-      "id": 801,
-      "title": "Offre de stage PFE - MSB & MEDTECH",
-      "company": "MSB & MEDTECH"
-    },
-    {
-      "id": 802,
+      "id": 808,
       "title": "Offre d'emploi - Huawei",
       "company": "HUAWEI"
-    },
-    {
-      "id": 803,
-      "title": "Offre de stage PFE",
-      "company": "Komax Testing Tunisia"
-    },
-    {
-      "id": 804,
-      "title": "Offres de stages PFE - ServRobot",
-      "company": "Robonest"
-    },
-    {
-      "id": 806,
-      "title": "Offre d'emploi - Bassetti",
-      "company": "BASSETTI"
     }
   ]
 }
