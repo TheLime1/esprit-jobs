@@ -1,19 +1,24 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 806,
-  "session_end_job_id": 808,
-  "next_job_id": 809,
-  "scraped_at": "2025-10-11T09:20:58.403683",
+  "total_jobs": 3,
+  "session_start_job_id": 807,
+  "session_end_job_id": 811,
+  "next_job_id": 812,
+  "scraped_at": "2025-10-18T09:21:50.340489",
   "jobs": [
     {
-      "id": 807,
-      "title": "Offre de stage – Projet Ifriqya (Start IT)",
-      "company": "Ifriqya (Start IT)"
+      "id": 809,
+      "title": "Offre de stage PFE - EMP",
+      "company": "EMP"
     },
     {
-      "id": 808,
-      "title": "Offre d'emploi - Huawei",
-      "company": "HUAWEI"
+      "id": 810,
+      "title": "Offre de stage PFE - BRS",
+      "company": "BRS"
+    },
+    {
+      "id": 811,
+      "title": "Offre de stage – VOE",
+      "company": "VOE"
     }
   ]
 }
