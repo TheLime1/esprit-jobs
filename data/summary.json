@@ -1,14 +1,14 @@
 {
   "total_jobs": 1,
-  "session_start_job_id": 811,
-  "session_end_job_id": 812,
-  "next_job_id": 813,
-  "scraped_at": "2025-10-23T09:26:50.205263",
+  "session_start_job_id": 814,
+  "session_end_job_id": 813,
+  "next_job_id": 814,
+  "scraped_at": "2025-10-27T09:29:14.569720",
   "jobs": [
     {
-      "id": 812,
-      "title": "Offre de stage PFE – Intelligence Artificielle & Transformation Digitale",
-      "company": "BourcesCrédit"
+      "id": 813,
+      "title": "Offre de stages PFE en Intelligence Artificielle – Nexus Groupe",
+      "company": "Unknown Company"
     }
   ]
 }
