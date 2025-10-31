@@ -1,14 +1,19 @@
 {
-  "total_jobs": 1,
-  "session_start_job_id": 814,
-  "session_end_job_id": 813,
-  "next_job_id": 814,
-  "scraped_at": "2025-10-27T09:29:14.569720",
+  "total_jobs": 2,
+  "session_start_job_id": 813,
+  "session_end_job_id": 815,
+  "next_job_id": 816,
+  "scraped_at": "2025-10-31T09:26:28.066874",
   "jobs": [
     {
-      "id": 813,
-      "title": "Offre de stages PFE en Intelligence Artificielle – Nexus Groupe",
-      "company": "Unknown Company"
+      "id": 814,
+      "title": "Offre de stage PFE",
+      "company": "Appaxis Innovations"
+    },
+    {
+      "id": 815,
+      "title": "Offres de stages PFE- PwC",
+      "company": "PwC"
     }
   ]
 }
