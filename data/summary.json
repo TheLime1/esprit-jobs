@@ -1,19 +1,14 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 813,
-  "session_end_job_id": 815,
-  "next_job_id": 816,
-  "scraped_at": "2025-10-31T09:26:28.066874",
+  "total_jobs": 1,
+  "session_start_job_id": 815,
+  "session_end_job_id": 816,
+  "next_job_id": 817,
+  "scraped_at": "2025-11-01T09:22:12.929747",
   "jobs": [
     {
-      "id": 814,
-      "title": "Offre de stage PFE",
-      "company": "Appaxis Innovations"
-    },
-    {
-      "id": 815,
-      "title": "Offres de stages PFE- PwC",
-      "company": "PwC"
+      "id": 816,
+      "title": "Offres de stage - Medsirat",
+      "company": "MedSirat"
     }
   ]
 }
