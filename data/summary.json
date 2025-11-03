@@ -1,14 +1,14 @@
 {
   "total_jobs": 1,
-  "session_start_job_id": 815,
-  "session_end_job_id": 816,
-  "next_job_id": 817,
-  "scraped_at": "2025-11-01T09:22:12.929747",
+  "session_start_job_id": 816,
+  "session_end_job_id": 817,
+  "next_job_id": 818,
+  "scraped_at": "2025-11-03T09:29:25.212075",
   "jobs": [
     {
-      "id": 816,
-      "title": "Offres de stage - Medsirat",
-      "company": "MedSirat"
+      "id": 817,
+      "title": "Offre de stage PFE –",
+      "company": "Benman Group Tunisie"
     }
   ]
 }
