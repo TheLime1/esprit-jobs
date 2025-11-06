@@ -1,14 +1,19 @@
 {
-  "total_jobs": 1,
-  "session_start_job_id": 816,
-  "session_end_job_id": 817,
-  "next_job_id": 818,
-  "scraped_at": "2025-11-03T09:29:25.212075",
+  "total_jobs": 2,
+  "session_start_job_id": 817,
+  "session_end_job_id": 819,
+  "next_job_id": 820,
+  "scraped_at": "2025-11-06T09:27:42.050094",
   "jobs": [
     {
-      "id": 817,
-      "title": "Offre de stage PFE –",
-      "company": "Benman Group Tunisie"
+      "id": 818,
+      "title": "Offre de stage PFE - Capgemini",
+      "company": "Capgemini"
+    },
+    {
+      "id": 819,
+      "title": "Offre de stage PFE - Data Tricks",
+      "company": "Data Tricks"
     }
   ]
 }
