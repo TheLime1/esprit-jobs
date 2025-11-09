@@ -1,19 +1,19 @@
 {
   "total_jobs": 2,
-  "session_start_job_id": 819,
-  "session_end_job_id": 821,
-  "next_job_id": 822,
-  "scraped_at": "2025-11-07T09:25:10.179102",
+  "session_start_job_id": 821,
+  "session_end_job_id": 823,
+  "next_job_id": 824,
+  "scraped_at": "2025-11-09T09:21:41.124185",
   "jobs": [
     {
-      "id": 820,
-      "title": "Offre de stages PFE - Healio",
-      "company": "Healio"
+      "id": 822,
+      "title": "Stage PFE DevSecOps",
+      "company": "TERRAKODO"
     },
     {
-      "id": 821,
-      "title": "Offre de stage (PFE)",
-      "company": "Soften"
+      "id": 823,
+      "title": "Stage PFE - Digital Marketing Intern",
+      "company": "TERRAKODO"
     }
   ]
 }
