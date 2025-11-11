@@ -1,19 +1,24 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 821,
-  "session_end_job_id": 823,
-  "next_job_id": 824,
-  "scraped_at": "2025-11-09T09:21:41.124185",
+  "total_jobs": 3,
+  "session_start_job_id": 823,
+  "session_end_job_id": 826,
+  "next_job_id": 827,
+  "scraped_at": "2025-11-11T09:27:44.269124",
   "jobs": [
     {
-      "id": 822,
-      "title": "Stage PFE DevSecOps",
-      "company": "TERRAKODO"
+      "id": 824,
+      "title": "Offre de Stage (PFE) - ServRobot",
+      "company": "ServRobot"
     },
     {
-      "id": 823,
-      "title": "Stage PFE - Digital Marketing Intern",
-      "company": "TERRAKODO"
+      "id": 825,
+      "title": "Offre de stage de pré-embauche - Benman Partners",
+      "company": "Benman Partners"
+    },
+    {
+      "id": 826,
+      "title": "Offre de stage PFE",
+      "company": "Arkan"
     }
   ]
 }
