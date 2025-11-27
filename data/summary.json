@@ -1,29 +1,14 @@
 {
-  "total_jobs": 4,
-  "session_start_job_id": 826,
-  "session_end_job_id": 830,
-  "next_job_id": 831,
-  "scraped_at": "2025-11-22T09:23:14.984363",
+  "total_jobs": 1,
+  "session_start_job_id": 832,
+  "session_end_job_id": 831,
+  "next_job_id": 832,
+  "scraped_at": "2025-11-27T09:28:15.776594",
   "jobs": [
     {
-      "id": 827,
-      "title": "Offre de Stage PFE – Ingénieur IoT & Intelligence Artificielle appliquée à l’Agriculture",
-      "company": "ESN QANTUMSHIFT"
-    },
-    {
-      "id": 828,
-      "title": "Offre de stage PFE -",
-      "company": "IFBW"
-    },
-    {
-      "id": 829,
-      "title": "Offre de stage - Sym Télécom",
-      "company": "Sym Télécom"
-    },
-    {
-      "id": 830,
-      "title": "Offre d’emploi –",
-      "company": "Drive System Design"
+      "id": 831,
+      "title": "Offres de stage - SOASY",
+      "company": "Soasy"
     }
   ]
 }
