@@ -5,9 +5,173 @@
     <link>https://espritconnect.com/jobs</link>
     <description>Latest job postings from Esprit Connect</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Nov 2025 09:28:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 09:26:18 GMT</lastBuildDate>
     <generator>Esprit Jobs Scraper v1.0</generator>
     <ns0:link href="https://thelime1.github.io/esprit-jobs/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Premier emploi - Ingénieur(e) Full-Stack - TERRAKODO</title>
+      <link>https://espritconnect.com/jobs/837</link>
+      <description>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4df9d56f-6f0e-4aa7-8d77-e7ef822c86ad.png?Expires=1764408370&amp;Signature=e9WjkvLWc1DzOqwmS~f8S6nCsihioGDw7UvV9C5xPQg1vDvm6~q4er6fAuhPjiExUKmoWLlJ~Yi9QAjChv4pdTbCmwZnK9g3hOv10Yq8N9KBDAuH8vv-BCM0i9Xv792nhoTI8S9GnFdD70vw2ZNRyVN4sZp6cglOIQCH3HQIS~WjMg~KIFxCRTtCsYbKUhniYXDKX9tK005zWOKLbKDdm3cqCmFlcnBKbsEzJbywKvC0rfLFu7wmotCEkX94~DX5ozdPIQs75lhRY0NHWHMp4uom~7o9VEXUEZNLXjjM4ofy7bT6NEZ-5fCIzF98Hlv2Cps1B1GYg0DhaX5jAjv8qw__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;TERRAKODO Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: TERRAKODO&lt;/p&gt;
+        &lt;p&gt;Location: Tunis, Tunisia&lt;/p&gt;
+        &lt;p&gt;Employment Type: Full-time&lt;/p&gt;
+        &lt;p&gt;Industry: Information Technology and Services&lt;/p&gt;
+        &lt;p&gt;Job Function: Information Technology&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Dr. Inès  Burrus&lt;/strong&gt; (TERRAKODO)&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Terrakodoest une entreprise innovante spécialisée dans le développement de solutions numériques pour une agriculture durable. Notre mission : améliorer durablement les revenus des producteurs dans le monde grâce à des technologies adaptées.Nous recherchons un(e)ingénieur(e) développeur full-stackmotivé(e), passionné(e) par la technologie et désireux(se) d’apprendre, pour rejoindre notre équipe et contribuer au développement de nos applications web et mobiles.MissionsParticiper à la conception et au développement de nouvelles fonctionnalitésÉcrire du code efficace et robusteDévelopper desAPI performantes et sécuriséesTravailler sur desinterfaces web et mobiles modernesParticiper aux revues de code et auxtests unitaires &amp; intégrationCollaborer dans un environnementAgile (SCRUM)avecGIT &amp; DockerTechnologies utiliséesFrontend :Angular 15+ avec Ionic et gestion d’état via NgRx StoreBackend :Laravel 9+Base de données :MySQL, MongoDBProfil recherchéJeune diplômé(e) (Premier emploi)Maîtrise deL&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</description>
+      <ns1:encoded>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4df9d56f-6f0e-4aa7-8d77-e7ef822c86ad.png?Expires=1764408370&amp;Signature=e9WjkvLWc1DzOqwmS~f8S6nCsihioGDw7UvV9C5xPQg1vDvm6~q4er6fAuhPjiExUKmoWLlJ~Yi9QAjChv4pdTbCmwZnK9g3hOv10Yq8N9KBDAuH8vv-BCM0i9Xv792nhoTI8S9GnFdD70vw2ZNRyVN4sZp6cglOIQCH3HQIS~WjMg~KIFxCRTtCsYbKUhniYXDKX9tK005zWOKLbKDdm3cqCmFlcnBKbsEzJbywKvC0rfLFu7wmotCEkX94~DX5ozdPIQs75lhRY0NHWHMp4uom~7o9VEXUEZNLXjjM4ofy7bT6NEZ-5fCIzF98Hlv2Cps1B1GYg0DhaX5jAjv8qw__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;TERRAKODO Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: TERRAKODO&lt;/p&gt;
+        &lt;p&gt;Location: Tunis, Tunisia&lt;/p&gt;
+        &lt;p&gt;Employment Type: Full-time&lt;/p&gt;
+        &lt;p&gt;Industry: Information Technology and Services&lt;/p&gt;
+        &lt;p&gt;Job Function: Information Technology&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Dr. Inès  Burrus&lt;/strong&gt; (TERRAKODO)&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Terrakodoest une entreprise innovante spécialisée dans le développement de solutions numériques pour une agriculture durable. Notre mission : améliorer durablement les revenus des producteurs dans le monde grâce à des technologies adaptées.Nous recherchons un(e)ingénieur(e) développeur full-stackmotivé(e), passionné(e) par la technologie et désireux(se) d’apprendre, pour rejoindre notre équipe et contribuer au développement de nos applications web et mobiles.MissionsParticiper à la conception et au développement de nouvelles fonctionnalitésÉcrire du code efficace et robusteDévelopper desAPI performantes et sécuriséesTravailler sur desinterfaces web et mobiles modernesParticiper aux revues de code et auxtests unitaires &amp; intégrationCollaborer dans un environnementAgile (SCRUM)avecGIT &amp; DockerTechnologies utiliséesFrontend :Angular 15+ avec Ionic et gestion d’état via NgRx StoreBackend :Laravel 9+Base de données :MySQL, MongoDBProfil recherchéJeune diplômé(e) (Premier emploi)Maîtrise deL&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</ns1:encoded>
+      <pubDate>Fri, 28 Nov 2025 09:26:11 GMT</pubDate>
+      <guid isPermaLink="true">https://espritconnect.com/jobs/837</guid>
+      <category>Jobs</category>
+      <enclosure url="https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4df9d56f-6f0e-4aa7-8d77-e7ef822c86ad.png?Expires=1764408370&amp;Signature=e9WjkvLWc1DzOqwmS~f8S6nCsihioGDw7UvV9C5xPQg1vDvm6~q4er6fAuhPjiExUKmoWLlJ~Yi9QAjChv4pdTbCmwZnK9g3hOv10Yq8N9KBDAuH8vv-BCM0i9Xv792nhoTI8S9GnFdD70vw2ZNRyVN4sZp6cglOIQCH3HQIS~WjMg~KIFxCRTtCsYbKUhniYXDKX9tK005zWOKLbKDdm3cqCmFlcnBKbsEzJbywKvC0rfLFu7wmotCEkX94~DX5ozdPIQs75lhRY0NHWHMp4uom~7o9VEXUEZNLXjjM4ofy7bT6NEZ-5fCIzF98Hlv2Cps1B1GYg0DhaX5jAjv8qw__&amp;Key-Pair-Id=K2PRJM0EAVGP0A" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Offre de stage PFE - Security Accent GmbH - Security Accent</title>
+      <link>https://espritconnect.com/jobs/836</link>
+      <description>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/8cce2ad4-c9e4-4750-83c3-bbb42439e679.jpg?Expires=1764408366&amp;Signature=x-AXY6zzFGP8EEB3i7DvJsfU90D1ECBLY3XUrGqyoVIzKX822gDVZy7tX931nfD02~m3Av77goRrnRFK3iIdwkHFcQDKiR3h5kAHXbti8WBlc844EbifHUZ7W4v5dIKYmTiwJqVDTVZ4Zh4XdAGdV91fp~m5RFTCXynxXwnBlMN5nIeFgu4MuaUh6Lt5ZnJip9wuo9NOED-ZbFgvGzIT5J9vR0cUmqEcElTxSYDOVU4x2-tZtylVdDPFP8yI0fEFBG7qQlYRmY5jFP4ZpcPQsAh8C9RuTCph9sqi0txUXJUD4b83dgVMW1JYDdpctqqeLMCNGr5IyOR0qprVltMvgg__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;Security Accent Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: Security Accent&lt;/p&gt;
+        &lt;p&gt;Location: Internship&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Dear Students,I hope you are doing well and that your exams are going smoothly.I am pleased to share with you a catalogue of internship opportunities provided by Security Accent GmbH, a German cutting-edge consultancy firm specialized in Identity and Access Management (IAM). The company is currently offering several PFE internship positions, specifically for the following projects:Project 2:“Context-Aware Policy Enforcement for IoT/Edge Systems” - 2 open positionsProject 3:“Zero-Trust Privileged Access Fabric for Hybrid IT/IoT Infrastructure” - 2 open positionsPlease find the full internship catalogue attached for more details about each project. These PFE internship offers are specifically intended for students from the NIDS and IoSys tracks.In addition to the highlighted positions, the catalogue also contains other interesting internship opportunities that may be relevant for NIDS, ARCTIC and IoSys students.&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</description>
+      <ns1:encoded>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/8cce2ad4-c9e4-4750-83c3-bbb42439e679.jpg?Expires=1764408366&amp;Signature=x-AXY6zzFGP8EEB3i7DvJsfU90D1ECBLY3XUrGqyoVIzKX822gDVZy7tX931nfD02~m3Av77goRrnRFK3iIdwkHFcQDKiR3h5kAHXbti8WBlc844EbifHUZ7W4v5dIKYmTiwJqVDTVZ4Zh4XdAGdV91fp~m5RFTCXynxXwnBlMN5nIeFgu4MuaUh6Lt5ZnJip9wuo9NOED-ZbFgvGzIT5J9vR0cUmqEcElTxSYDOVU4x2-tZtylVdDPFP8yI0fEFBG7qQlYRmY5jFP4ZpcPQsAh8C9RuTCph9sqi0txUXJUD4b83dgVMW1JYDdpctqqeLMCNGr5IyOR0qprVltMvgg__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;Security Accent Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: Security Accent&lt;/p&gt;
+        &lt;p&gt;Location: Internship&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Dear Students,I hope you are doing well and that your exams are going smoothly.I am pleased to share with you a catalogue of internship opportunities provided by Security Accent GmbH, a German cutting-edge consultancy firm specialized in Identity and Access Management (IAM). The company is currently offering several PFE internship positions, specifically for the following projects:Project 2:“Context-Aware Policy Enforcement for IoT/Edge Systems” - 2 open positionsProject 3:“Zero-Trust Privileged Access Fabric for Hybrid IT/IoT Infrastructure” - 2 open positionsPlease find the full internship catalogue attached for more details about each project. These PFE internship offers are specifically intended for students from the NIDS and IoSys tracks.In addition to the highlighted positions, the catalogue also contains other interesting internship opportunities that may be relevant for NIDS, ARCTIC and IoSys students.&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</ns1:encoded>
+      <pubDate>Fri, 28 Nov 2025 09:26:07 GMT</pubDate>
+      <guid isPermaLink="true">https://espritconnect.com/jobs/836</guid>
+      <category>Jobs</category>
+      <enclosure url="https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/8cce2ad4-c9e4-4750-83c3-bbb42439e679.jpg?Expires=1764408366&amp;Signature=x-AXY6zzFGP8EEB3i7DvJsfU90D1ECBLY3XUrGqyoVIzKX822gDVZy7tX931nfD02~m3Av77goRrnRFK3iIdwkHFcQDKiR3h5kAHXbti8WBlc844EbifHUZ7W4v5dIKYmTiwJqVDTVZ4Zh4XdAGdV91fp~m5RFTCXynxXwnBlMN5nIeFgu4MuaUh6Lt5ZnJip9wuo9NOED-ZbFgvGzIT5J9vR0cUmqEcElTxSYDOVU4x2-tZtylVdDPFP8yI0fEFBG7qQlYRmY5jFP4ZpcPQsAh8C9RuTCph9sqi0txUXJUD4b83dgVMW1JYDdpctqqeLMCNGr5IyOR0qprVltMvgg__&amp;Key-Pair-Id=K2PRJM0EAVGP0A" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Offre de stage PFE - Inspecly - Inspecly</title>
+      <link>https://espritconnect.com/jobs/835</link>
+      <description>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4bf3c3fa-d05b-408e-be86-591340b8a89b.png?Expires=1764408363&amp;Signature=L-d-Po6uF1Drr4yUcRhASJR1FNy6SwquDArSKSswBvoCEByxA8iuUsHyFz54y3taRi1r6O7~CY-oWMrhCuPksHQF1ncDeFCjwVYzX1ysCXWp8ijeWUHvRum8h~~HZxVgzSSjUZbnxDzbvf8OOQhVurAc6MHuQnq4RlHZ6uQQZT53ty8jsTEdVGXc6MbPO3og7PmMFKL4sQEQZ~VyqDPvV4wgofVO6LaTnE871tuBXJCz65gwG84uqkAgiMigOLaP91w~MDsoW~PQMp5-cM0JWgTxnIs~NKp2OunyZ2~i68fB8eMVyoHdMyo9Q55EWj1SG-dzdbTKTNGF6Up51w2NlQ__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;Inspecly Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: Inspecly&lt;/p&gt;
+        &lt;p&gt;Location: Internship&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;En PJ un descriptif du sujet.&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</description>
+      <ns1:encoded>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4bf3c3fa-d05b-408e-be86-591340b8a89b.png?Expires=1764408363&amp;Signature=L-d-Po6uF1Drr4yUcRhASJR1FNy6SwquDArSKSswBvoCEByxA8iuUsHyFz54y3taRi1r6O7~CY-oWMrhCuPksHQF1ncDeFCjwVYzX1ysCXWp8ijeWUHvRum8h~~HZxVgzSSjUZbnxDzbvf8OOQhVurAc6MHuQnq4RlHZ6uQQZT53ty8jsTEdVGXc6MbPO3og7PmMFKL4sQEQZ~VyqDPvV4wgofVO6LaTnE871tuBXJCz65gwG84uqkAgiMigOLaP91w~MDsoW~PQMp5-cM0JWgTxnIs~NKp2OunyZ2~i68fB8eMVyoHdMyo9Q55EWj1SG-dzdbTKTNGF6Up51w2NlQ__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;Inspecly Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: Inspecly&lt;/p&gt;
+        &lt;p&gt;Location: Internship&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;En PJ un descriptif du sujet.&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</ns1:encoded>
+      <pubDate>Fri, 28 Nov 2025 09:26:03 GMT</pubDate>
+      <guid isPermaLink="true">https://espritconnect.com/jobs/835</guid>
+      <category>Jobs</category>
+      <enclosure url="https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4bf3c3fa-d05b-408e-be86-591340b8a89b.png?Expires=1764408363&amp;Signature=L-d-Po6uF1Drr4yUcRhASJR1FNy6SwquDArSKSswBvoCEByxA8iuUsHyFz54y3taRi1r6O7~CY-oWMrhCuPksHQF1ncDeFCjwVYzX1ysCXWp8ijeWUHvRum8h~~HZxVgzSSjUZbnxDzbvf8OOQhVurAc6MHuQnq4RlHZ6uQQZT53ty8jsTEdVGXc6MbPO3og7PmMFKL4sQEQZ~VyqDPvV4wgofVO6LaTnE871tuBXJCz65gwG84uqkAgiMigOLaP91w~MDsoW~PQMp5-cM0JWgTxnIs~NKp2OunyZ2~i68fB8eMVyoHdMyo9Q55EWj1SG-dzdbTKTNGF6Up51w2NlQ__&amp;Key-Pair-Id=K2PRJM0EAVGP0A" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Offre de stage PFE - Advensia GmbH - Advensia GmbH</title>
+      <link>https://espritconnect.com/jobs/834</link>
+      <description>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/b83bd392-18e3-4ece-8d8b-1cbd708bd336.jpg?Expires=1764408359&amp;Signature=yQP3NIZKPRcr8Z47cz0Biz5Mr5kpPe5pKOUCAmRDNDD3CzXHDMeIfdmfdR5xv4I1vMYA6XpND68cVnPWxSNiAHPNTJqtl3FKg6Ti66q6UUiAJQLKl~BgDfSBtz5Uk608~iXbLbZHM28ereosxpZtAhyZ9V2H1~g5Q88PcoM6TQcGHRSLpHPjQv4LTb2XTZ5OFHEYnsv3tmzAhbLFbgBENNGZWSADGaU0LMtuvhrzAyg5AqA8nWIBtMIWFkSgKsi75H7glh1WTKU-Fg95L~vjE46vuymMtrmYGTs7FOvCm-dY-sPx461lNMDjKDdEMBDV3e~5VQrId3QLiIbcSf4xlA__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;Advensia GmbH Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: Advensia GmbH&lt;/p&gt;
+        &lt;p&gt;Location: Internship&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Notre entreprise est spécialisée dans les systèmes de localisation temps réel (RTLS) et l’intégration de solutions IoT, notamment pour les secteurs de l’industrie, de la logistique et de l’agriculture connectée. Nous menons régulièrement des projets innovants en partenariat avec des acteurs industriels allemands et européens.Je serais ravi de proposer des stages de PFE pour les élèves ingénieurs de ESPRIT sur les thèmes des réseaux de capteurs IoT.Ces stages, à forte valeur ajoutée technologique, sous ma supervision, porteraient sur des thématiques concrètes et innovantes (traitement de données, géolocalisation, capteurs IoT, visualisation cartographique, etc.).Nous serons très ravis d´une opportunité de collaboration avec ESPRIT.Veuillez trouver en pièce jointe une proposition de PFE pour les élèves de ESPRIT en rapport avec un projet industriel actuel.Veuillez postuler uniquement via celien, en PJ un descriptif du sujet.&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</description>
+      <ns1:encoded>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/b83bd392-18e3-4ece-8d8b-1cbd708bd336.jpg?Expires=1764408359&amp;Signature=yQP3NIZKPRcr8Z47cz0Biz5Mr5kpPe5pKOUCAmRDNDD3CzXHDMeIfdmfdR5xv4I1vMYA6XpND68cVnPWxSNiAHPNTJqtl3FKg6Ti66q6UUiAJQLKl~BgDfSBtz5Uk608~iXbLbZHM28ereosxpZtAhyZ9V2H1~g5Q88PcoM6TQcGHRSLpHPjQv4LTb2XTZ5OFHEYnsv3tmzAhbLFbgBENNGZWSADGaU0LMtuvhrzAyg5AqA8nWIBtMIWFkSgKsi75H7glh1WTKU-Fg95L~vjE46vuymMtrmYGTs7FOvCm-dY-sPx461lNMDjKDdEMBDV3e~5VQrId3QLiIbcSf4xlA__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;Advensia GmbH Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: Advensia GmbH&lt;/p&gt;
+        &lt;p&gt;Location: Internship&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Notre entreprise est spécialisée dans les systèmes de localisation temps réel (RTLS) et l’intégration de solutions IoT, notamment pour les secteurs de l’industrie, de la logistique et de l’agriculture connectée. Nous menons régulièrement des projets innovants en partenariat avec des acteurs industriels allemands et européens.Je serais ravi de proposer des stages de PFE pour les élèves ingénieurs de ESPRIT sur les thèmes des réseaux de capteurs IoT.Ces stages, à forte valeur ajoutée technologique, sous ma supervision, porteraient sur des thématiques concrètes et innovantes (traitement de données, géolocalisation, capteurs IoT, visualisation cartographique, etc.).Nous serons très ravis d´une opportunité de collaboration avec ESPRIT.Veuillez trouver en pièce jointe une proposition de PFE pour les élèves de ESPRIT en rapport avec un projet industriel actuel.Veuillez postuler uniquement via celien, en PJ un descriptif du sujet.&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</ns1:encoded>
+      <pubDate>Fri, 28 Nov 2025 09:26:00 GMT</pubDate>
+      <guid isPermaLink="true">https://espritconnect.com/jobs/834</guid>
+      <category>Jobs</category>
+      <enclosure url="https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/b83bd392-18e3-4ece-8d8b-1cbd708bd336.jpg?Expires=1764408359&amp;Signature=yQP3NIZKPRcr8Z47cz0Biz5Mr5kpPe5pKOUCAmRDNDD3CzXHDMeIfdmfdR5xv4I1vMYA6XpND68cVnPWxSNiAHPNTJqtl3FKg6Ti66q6UUiAJQLKl~BgDfSBtz5Uk608~iXbLbZHM28ereosxpZtAhyZ9V2H1~g5Q88PcoM6TQcGHRSLpHPjQv4LTb2XTZ5OFHEYnsv3tmzAhbLFbgBENNGZWSADGaU0LMtuvhrzAyg5AqA8nWIBtMIWFkSgKsi75H7glh1WTKU-Fg95L~vjE46vuymMtrmYGTs7FOvCm-dY-sPx461lNMDjKDdEMBDV3e~5VQrId3QLiIbcSf4xlA__&amp;Key-Pair-Id=K2PRJM0EAVGP0A" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Offre d’emploi - CCSAV - CCSAV</title>
+      <link>https://espritconnect.com/jobs/833</link>
+      <description>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4e406b2a-e0dd-48cd-b103-89de13698f71.jpg?Expires=1764408355&amp;Signature=aTbC6wCeBd54I6z~2yCH737ebMOM57yhIA5vY0~wkIKVVORWZViDMngoyo9jlxXyCSFgPX6izQocZ8Wgh-8-e1KPzMScz7IKuKzrZjueimjpa5QPdYSBKOXuqjkLND0UZHGilaYzJr6-Oeaa2CQHG7Hd-U1EijMdI9OHwolmZQKfhoQqJwIFXVdIhg0RyaxnSv8qy3ErKO8BvKu6E2RJRjDwzp0r5U~ujVxTeAA8h8iCBGiyCoeOZhqSvFHuF2fHWgtU82pFuguV80RKAP-UgV2jkpgaVkUXJ1CB3HI-yWeTUtcddLpKGeVCw087l5elRu5cV65~-nu6A128G0MyZA__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;CCSAV Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: CCSAV&lt;/p&gt;
+        &lt;p&gt;Location: Contract&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Offre reçue par mail:Ci-dessous le descriptif de l'offre d'emploi.******************************************************************************Je me permets de vous contacter, je suis Responsable Recrutement au sein duCCSAV.Nous accompagnons actuellement notreclient françaisdans le recrutement d’un(e)Développeur(se) Intégration ERP/CRM, dans le cadre d’un projet stratégique d’interconnexion entre systèmes de gestion (connecteur Zoho CRM ↔ Sage 100 Gestion Commerciale).Afin de toucher des profils qualifiés, nous souhaiterions savoir s’il vous serait possible dediffuser cette offre auprès de vos anciens diplômésdans le domaine de l’ingénierie informatique.🔹Lien vers l’offre complète :https://ccsav.ca/emploi/developpeur-integration-erp-crm/🔹Lien de candidature directe :https://forms.monday.com/forms/2430405479b5eeb59cd2a0fb01a665b5?r=use1Je vous remercie sincèrement pour votre aide et pour la collaboration précieuse que vous entretenez avec les entreprises à la recherche de talents issus&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</description>
+      <ns1:encoded>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4e406b2a-e0dd-48cd-b103-89de13698f71.jpg?Expires=1764408355&amp;Signature=aTbC6wCeBd54I6z~2yCH737ebMOM57yhIA5vY0~wkIKVVORWZViDMngoyo9jlxXyCSFgPX6izQocZ8Wgh-8-e1KPzMScz7IKuKzrZjueimjpa5QPdYSBKOXuqjkLND0UZHGilaYzJr6-Oeaa2CQHG7Hd-U1EijMdI9OHwolmZQKfhoQqJwIFXVdIhg0RyaxnSv8qy3ErKO8BvKu6E2RJRjDwzp0r5U~ujVxTeAA8h8iCBGiyCoeOZhqSvFHuF2fHWgtU82pFuguV80RKAP-UgV2jkpgaVkUXJ1CB3HI-yWeTUtcddLpKGeVCw087l5elRu5cV65~-nu6A128G0MyZA__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;CCSAV Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: CCSAV&lt;/p&gt;
+        &lt;p&gt;Location: Contract&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Offre reçue par mail:Ci-dessous le descriptif de l'offre d'emploi.******************************************************************************Je me permets de vous contacter, je suis Responsable Recrutement au sein duCCSAV.Nous accompagnons actuellement notreclient françaisdans le recrutement d’un(e)Développeur(se) Intégration ERP/CRM, dans le cadre d’un projet stratégique d’interconnexion entre systèmes de gestion (connecteur Zoho CRM ↔ Sage 100 Gestion Commerciale).Afin de toucher des profils qualifiés, nous souhaiterions savoir s’il vous serait possible dediffuser cette offre auprès de vos anciens diplômésdans le domaine de l’ingénierie informatique.🔹Lien vers l’offre complète :https://ccsav.ca/emploi/developpeur-integration-erp-crm/🔹Lien de candidature directe :https://forms.monday.com/forms/2430405479b5eeb59cd2a0fb01a665b5?r=use1Je vous remercie sincèrement pour votre aide et pour la collaboration précieuse que vous entretenez avec les entreprises à la recherche de talents issus&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</ns1:encoded>
+      <pubDate>Fri, 28 Nov 2025 09:25:56 GMT</pubDate>
+      <guid isPermaLink="true">https://espritconnect.com/jobs/833</guid>
+      <category>Jobs</category>
+      <enclosure url="https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/4e406b2a-e0dd-48cd-b103-89de13698f71.jpg?Expires=1764408355&amp;Signature=aTbC6wCeBd54I6z~2yCH737ebMOM57yhIA5vY0~wkIKVVORWZViDMngoyo9jlxXyCSFgPX6izQocZ8Wgh-8-e1KPzMScz7IKuKzrZjueimjpa5QPdYSBKOXuqjkLND0UZHGilaYzJr6-Oeaa2CQHG7Hd-U1EijMdI9OHwolmZQKfhoQqJwIFXVdIhg0RyaxnSv8qy3ErKO8BvKu6E2RJRjDwzp0r5U~ujVxTeAA8h8iCBGiyCoeOZhqSvFHuF2fHWgtU82pFuguV80RKAP-UgV2jkpgaVkUXJ1CB3HI-yWeTUtcddLpKGeVCw087l5elRu5cV65~-nu6A128G0MyZA__&amp;Key-Pair-Id=K2PRJM0EAVGP0A" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>OFFRE D'EMPLOI - SNBG - SNBG</title>
+      <link>https://espritconnect.com/jobs/832</link>
+      <description>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/ed3a4769-0e4e-4acc-97ce-f251acd1d313.jpg?Expires=1764408351&amp;Signature=0B6OHqdt2EWxwLPMv40IALrMEcH66f1Rn63obphjSjE~d0jz7zWmo2jOvyDF9zYzPObqY7Ty~0ACTPoCLhhJTI~AkGwnj~DwYwm1AodQZot6b0qdhDTylSX4zar9RIq51ahxWYv2P9PqMHagJocxZtTIIJdDN5LyYzq1~w2gfzIuToT6BzYuVKga~iDBVKR8PlBVoQFOJ8raZte36OR7KOAOpJ8nYS0QO~O0yCwP9ZG0XooFDO5mazz7jLxxJCLijR-xbxGFX5AJ21Z~wbrbp~fcXmg13NWoDv7qJUo75kYEmH9qkX~ttVv0xuIyNN8bVg8upaz7ZCa-heE6-P-XnQ__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;SNBG Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: SNBG&lt;/p&gt;
+        &lt;p&gt;Location: Contract&lt;/p&gt;
+        &lt;p&gt;Employment Type: Electrical/Electronic Manufacturing&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Notre besoin c’est d’avoir un ingénieur électromécanique, vous trouvez ci-dessous les profils demandé :Maintenance préventive :planification et ordonnancement des activités (correctives, planifié, préventives et amélioration)réparation des interventions curatives en urgenceanalyse des pannes récurrentes et mettre le plan d’action nécessaireMaintenance curative :Résoudre les pannes et réaliser la maintenance de premier niveau sur les lignes de productionSuperviser la maintenance préventives de base (graissage, nettoyage, vérification et lubrification)Maintenance utilité :Maintenance préventive et curatives des équipements utilité (groupe froid, osmose inverse, chaudière, groupe électrogène)Automatisme : assurer la maintenance des équipements électrique, résolution des pannes en utilisant le programme (WINCC, TIA portal, Step 7)&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</description>
+      <ns1:encoded>&lt;img src=&quot;https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/ed3a4769-0e4e-4acc-97ce-f251acd1d313.jpg?Expires=1764408351&amp;Signature=0B6OHqdt2EWxwLPMv40IALrMEcH66f1Rn63obphjSjE~d0jz7zWmo2jOvyDF9zYzPObqY7Ty~0ACTPoCLhhJTI~AkGwnj~DwYwm1AodQZot6b0qdhDTylSX4zar9RIq51ahxWYv2P9PqMHagJocxZtTIIJdDN5LyYzq1~w2gfzIuToT6BzYuVKga~iDBVKR8PlBVoQFOJ8raZte36OR7KOAOpJ8nYS0QO~O0yCwP9ZG0XooFDO5mazz7jLxxJCLijR-xbxGFX5AJ21Z~wbrbp~fcXmg13NWoDv7qJUo75kYEmH9qkX~ttVv0xuIyNN8bVg8upaz7ZCa-heE6-P-XnQ__&amp;Key-Pair-Id=K2PRJM0EAVGP0A&quot; alt=&quot;SNBG Logo&quot; style=&quot;max-width: 200px; height: auto; margin-bottom: 10px;&quot;/&gt;
+        &lt;p&gt;Company: SNBG&lt;/p&gt;
+        &lt;p&gt;Location: Contract&lt;/p&gt;
+        &lt;p&gt;Employment Type: Electrical/Electronic Manufacturing&lt;/p&gt;
+        &lt;p&gt;Closing Date: Closing date for applications: &lt;strong&gt;27/02/2026&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Added by: &lt;strong&gt;Haidy  Khemiri&lt;/strong&gt; (Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir))&lt;/p&gt;
+        &lt;p&gt;Description:&lt;/p&gt;
+        &lt;p&gt;Notre besoin c’est d’avoir un ingénieur électromécanique, vous trouvez ci-dessous les profils demandé :Maintenance préventive :planification et ordonnancement des activités (correctives, planifié, préventives et amélioration)réparation des interventions curatives en urgenceanalyse des pannes récurrentes et mettre le plan d’action nécessaireMaintenance curative :Résoudre les pannes et réaliser la maintenance de premier niveau sur les lignes de productionSuperviser la maintenance préventives de base (graissage, nettoyage, vérification et lubrification)Maintenance utilité :Maintenance préventive et curatives des équipements utilité (groupe froid, osmose inverse, chaudière, groupe électrogène)Automatisme : assurer la maintenance des équipements électrique, résolution des pannes en utilisant le programme (WINCC, TIA portal, Step 7)&lt;/p&gt;
+        &lt;p&gt;Requirements:&lt;/p&gt;
+        &lt;p&gt;No requirements specified&lt;/p&gt;</ns1:encoded>
+      <pubDate>Fri, 28 Nov 2025 09:25:52 GMT</pubDate>
+      <guid isPermaLink="true">https://espritconnect.com/jobs/832</guid>
+      <category>Jobs</category>
+      <enclosure url="https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/ed3a4769-0e4e-4acc-97ce-f251acd1d313.jpg?Expires=1764408351&amp;Signature=0B6OHqdt2EWxwLPMv40IALrMEcH66f1Rn63obphjSjE~d0jz7zWmo2jOvyDF9zYzPObqY7Ty~0ACTPoCLhhJTI~AkGwnj~DwYwm1AodQZot6b0qdhDTylSX4zar9RIq51ahxWYv2P9PqMHagJocxZtTIIJdDN5LyYzq1~w2gfzIuToT6BzYuVKga~iDBVKR8PlBVoQFOJ8raZte36OR7KOAOpJ8nYS0QO~O0yCwP9ZG0XooFDO5mazz7jLxxJCLijR-xbxGFX5AJ21Z~wbrbp~fcXmg13NWoDv7qJUo75kYEmH9qkX~ttVv0xuIyNN8bVg8upaz7ZCa-heE6-P-XnQ__&amp;Key-Pair-Id=K2PRJM0EAVGP0A" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>Offres de stage - SOASY - Soasy</title>
       <link>https://espritconnect.com/jobs/831</link>
