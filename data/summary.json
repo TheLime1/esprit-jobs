@@ -1,39 +1,14 @@
 {
-  "total_jobs": 6,
-  "session_start_job_id": 831,
-  "session_end_job_id": 837,
-  "next_job_id": 838,
-  "scraped_at": "2025-11-28T09:26:18.311394",
+  "total_jobs": 1,
+  "session_start_job_id": 837,
+  "session_end_job_id": 838,
+  "next_job_id": 839,
+  "scraped_at": "2025-11-30T09:23:02.475125",
   "jobs": [
     {
-      "id": 832,
-      "title": "OFFRE D'EMPLOI - SNBG",
-      "company": "SNBG"
-    },
-    {
-      "id": 833,
-      "title": "Offre d’emploi - CCSAV",
-      "company": "CCSAV"
-    },
-    {
-      "id": 834,
-      "title": "Offre de stage PFE - Advensia GmbH",
-      "company": "Advensia GmbH"
-    },
-    {
-      "id": 835,
-      "title": "Offre de stage PFE - Inspecly",
-      "company": "Inspecly"
-    },
-    {
-      "id": 836,
-      "title": "Offre de stage PFE - Security Accent GmbH",
-      "company": "Security Accent"
-    },
-    {
-      "id": 837,
-      "title": "Premier emploi - Ingénieur(e) Full-Stack",
-      "company": "TERRAKODO"
+      "id": 838,
+      "title": "Offre d'emploi - Indigo",
+      "company": "Indigo company"
     }
   ]
 }
