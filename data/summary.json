@@ -1,14 +1,14 @@
 {
   "total_jobs": 1,
   "session_start_job_id": 837,
-  "session_end_job_id": 838,
-  "next_job_id": 839,
-  "scraped_at": "2025-11-30T09:23:02.475125",
+  "session_end_job_id": 839,
+  "next_job_id": 840,
+  "scraped_at": "2025-12-07T09:24:19.365204",
   "jobs": [
     {
-      "id": 838,
-      "title": "Offre d'emploi - Indigo",
-      "company": "Indigo company"
+      "id": 839,
+      "title": "Offre de stage pré-embauche – SALAMBO PROSERV",
+      "company": "SALAMBO PROSERV"
     }
   ]
 }
