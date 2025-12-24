@@ -1,34 +1,39 @@
 {
-  "total_jobs": 5,
-  "session_start_job_id": 837,
-  "session_end_job_id": 845,
-  "next_job_id": 846,
-  "scraped_at": "2025-12-17T09:33:39.478793",
+  "total_jobs": 6,
+  "session_start_job_id": 844,
+  "session_end_job_id": 851,
+  "next_job_id": 852,
+  "scraped_at": "2025-12-24T09:29:51.402724",
   "jobs": [
     {
-      "id": 841,
-      "title": "Offre de stage PFE – Deloitte Tunisia",
-      "company": "Deloitte"
+      "id": 846,
+      "title": "Offre de stage PFE - GALYLIO",
+      "company": "GALYLIO"
     },
     {
-      "id": 842,
-      "title": "Offre de stage PFE - Sparkling",
-      "company": "Sparkling Co"
+      "id": 847,
+      "title": "Offre de stage PFE - HAYCOM TECHNOLOGIES",
+      "company": "HAYCOM TECHNOLOGIES"
     },
     {
-      "id": 843,
-      "title": "Offre de stage PFE – Scalia Dev",
-      "company": "Scalia Dev"
+      "id": 848,
+      "title": "Offre de Stage PFE - Aymax",
+      "company": "AYMAX"
     },
     {
-      "id": 844,
-      "title": "Offre de stage PFE - WiseCorp",
-      "company": "Wise Corp"
+      "id": 849,
+      "title": "Offres de stage PFE - IPACT",
+      "company": "IPACT"
     },
     {
-      "id": 845,
-      "title": "Offre de stage PFE – EDICHEM",
-      "company": "EDICHEM"
+      "id": 850,
+      "title": "Offre de stages PFE - MSK Technologies",
+      "company": "MSK Technologies"
+    },
+    {
+      "id": 851,
+      "title": "Offre de stage - Moneycore",
+      "company": "Moneycore"
     }
   ]
 }
