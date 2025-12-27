@@ -1,39 +1,19 @@
 {
-  "total_jobs": 6,
-  "session_start_job_id": 844,
-  "session_end_job_id": 851,
-  "next_job_id": 852,
-  "scraped_at": "2025-12-24T09:29:51.402724",
+  "total_jobs": 2,
+  "session_start_job_id": 851,
+  "session_end_job_id": 853,
+  "next_job_id": 854,
+  "scraped_at": "2025-12-27T09:25:52.897908",
   "jobs": [
     {
-      "id": 846,
-      "title": "Offre de stage PFE - GALYLIO",
-      "company": "GALYLIO"
+      "id": 852,
+      "title": "Offre de stage PFE - MS2 Technologies",
+      "company": "MS2 Technologies"
     },
     {
-      "id": 847,
-      "title": "Offre de stage PFE - HAYCOM TECHNOLOGIES",
-      "company": "HAYCOM TECHNOLOGIES"
-    },
-    {
-      "id": 848,
-      "title": "Offre de Stage PFE - Aymax",
-      "company": "AYMAX"
-    },
-    {
-      "id": 849,
-      "title": "Offres de stage PFE - IPACT",
-      "company": "IPACT"
-    },
-    {
-      "id": 850,
-      "title": "Offre de stages PFE - MSK Technologies",
-      "company": "MSK Technologies"
-    },
-    {
-      "id": 851,
-      "title": "Offre de stage - Moneycore",
-      "company": "Moneycore"
+      "id": 853,
+      "title": "Offre de stage PFE - Thinkneo",
+      "company": "Thinkneo"
     }
   ]
 }
