@@ -1138,5 +1138,24 @@
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
     "scraped_at": "2026-01-07T09:33:48.858776"
+  },
+  {
+    "job_id": 859,
+    "title": "Offre de stage PFE",
+    "company": "Tunisian Africa Business Council",
+    "location": "Internship",
+    "description": "Appel à candidatures – PFE / Stage élève-ingénieur (Blockchain / Full-Stack)Tunisian Africa Business Council (TABC), en collaboration avecAltavo Partners SAS (France), lance un appel à candidatures pour unProjet de Fin d’Études (PFE)ou unstage élève-ingénieurvisant à industrialiser et étendre uneplateforme blockchain de Trade Financedestinée aux opérateurs économiques africains (importateurs / exportateurs) et aux institutions financières.1) Contexte & ambitionLe financement du commerce (trade finance) en Afrique souffre encore de frictions majeures : délais, manque de transparence, coûts élevés, difficultés de preuve, gestion documentaire lourde, confiance inter-parties imparfaite.Sur la base d’unprototype existant “Hex-Port”(Hedera, EVM smart contracts, HCS audit trail, HTS tokenisation, IPFS/stockage décentralisé), le stage/PFE a pour objectif de :Enrichir le prototypeavec de nouvelles fonctionnalités métier et techniques.Intégrerle prototype à la plateforme existante demise en rela",
+    "requirements": "No requirements specified",
+    "posted_date": "Unknown Date",
+    "url": "https://espritconnect.com/jobs/859",
+    "image_url": null,
+    "company_logo_url": "https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/67dcd8b2-7866-4424-98f2-2b1475e5be18.png?Expires=1768037611&Signature=Fznds49tyKjSSLt1PZ9mX81ykwEALI1zus6ZLfZb3YVUygChP4hBdK7597rK5zOFvwjcC8vtw1BLR6s-l0D64X82oQ7yyL2bmfkYGgxmHOvETEPC8qHE692ndbSnVB~xiFU-ZgxGEv7X8X1Xxtxs252Zhs~UOY2pTQOLQDS-yNHqyosYEKUp7jlnLBJhlxRo4acPc5QiuTWQywa-PtIRCuqiGX7YdnRqhDxtxd49tL-HNhlb3XKS-CyJEODBB3gSYfMsewSSrDEwcTn8-3p1CREwoRUlnfEw7IfbGWFhPVYhLvBLXMCKJtWwjJbSm8NrWEesnYwNBO8s-3EWZ8hIXw__&Key-Pair-Id=K2PRJM0EAVGP0A",
+    "employment_type": null,
+    "industry": null,
+    "job_function": null,
+    "closing_date": "Closing date for applications: 08/04/2026",
+    "added_by_name": "Haidy  Khemiri",
+    "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
+    "scraped_at": "2026-01-09T09:33:32.194899"
   }
 ]
