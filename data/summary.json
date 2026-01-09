@@ -1,34 +1,14 @@
 {
-  "total_jobs": 5,
-  "session_start_job_id": 851,
-  "session_end_job_id": 858,
-  "next_job_id": 859,
-  "scraped_at": "2026-01-07T09:33:55.232971",
+  "total_jobs": 1,
+  "session_start_job_id": 860,
+  "session_end_job_id": 859,
+  "next_job_id": 860,
+  "scraped_at": "2026-01-09T09:33:36.511248",
   "jobs": [
     {
-      "id": 854,
-      "title": "Offres de stage PFE - @FIN",
-      "company": "@FIN"
-    },
-    {
-      "id": 855,
-      "title": "Offre de stage PFE - SMART SYSTEM",
-      "company": "SMART   SYSTEM"
-    },
-    {
-      "id": 856,
-      "title": "Offre d'emploi - SMART SYSTEM",
-      "company": "Smart System"
-    },
-    {
-      "id": 857,
-      "title": "Offre d'emploi - Commercial Back Office",
-      "company": "Staffing Plan NTT"
-    },
-    {
-      "id": 858,
-      "title": "Offre de stage PFE – SALAMBO PROSERV",
-      "company": "SALAMBO PROSERV"
+      "id": 859,
+      "title": "Offre de stage PFE",
+      "company": "Tunisian Africa Business Council"
     }
   ]
 }
