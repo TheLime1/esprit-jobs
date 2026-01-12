@@ -1,14 +1,14 @@
 {
   "total_jobs": 1,
-  "session_start_job_id": 860,
-  "session_end_job_id": 859,
-  "next_job_id": 860,
-  "scraped_at": "2026-01-09T09:33:36.511248",
+  "session_start_job_id": 859,
+  "session_end_job_id": 860,
+  "next_job_id": 861,
+  "scraped_at": "2026-01-12T09:37:40.121092",
   "jobs": [
     {
-      "id": 859,
-      "title": "Offre de stage PFE",
-      "company": "Tunisian Africa Business Council"
+      "id": 860,
+      "title": "Ofrre de stage PFE",
+      "company": "Mashroom"
     }
   ]
 }
