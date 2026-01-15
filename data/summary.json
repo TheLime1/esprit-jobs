@@ -1,14 +1,44 @@
 {
-  "total_jobs": 1,
-  "session_start_job_id": 859,
-  "session_end_job_id": 860,
-  "next_job_id": 861,
-  "scraped_at": "2026-01-12T09:37:40.121092",
+  "total_jobs": 7,
+  "session_start_job_id": 868,
+  "session_end_job_id": 867,
+  "next_job_id": 868,
+  "scraped_at": "2026-01-15T09:33:54.166596",
   "jobs": [
     {
-      "id": 860,
-      "title": "Ofrre de stage PFE",
-      "company": "Mashroom"
+      "id": 861,
+      "title": "Offres de stage de PFE",
+      "company": "KOUKA"
+    },
+    {
+      "id": 862,
+      "title": "Proposition de sujet de PFE – Equipe RDI DevProf –",
+      "company": "ESPRIT-TECH"
+    },
+    {
+      "id": 863,
+      "title": "Proposition de sujet de PFE -",
+      "company": "Equipe de recherche RFID"
+    },
+    {
+      "id": 864,
+      "title": "Offre de stage PFE -",
+      "company": "VISA Services"
+    },
+    {
+      "id": 865,
+      "title": "Offre de stage PFE – Ingénieur Génie Civil",
+      "company": "ECO- PILOT"
+    },
+    {
+      "id": 866,
+      "title": "Offre d'emploi - Value",
+      "company": "Value"
+    },
+    {
+      "id": 867,
+      "title": "Offre de stage PFE",
+      "company": "Artimis Tunis"
     }
   ]
 }
