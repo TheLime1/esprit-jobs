@@ -1,44 +1,24 @@
 {
-  "total_jobs": 7,
-  "session_start_job_id": 868,
-  "session_end_job_id": 867,
-  "next_job_id": 868,
-  "scraped_at": "2026-01-15T09:33:54.166596",
+  "total_jobs": 3,
+  "session_start_job_id": 866,
+  "session_end_job_id": 870,
+  "next_job_id": 871,
+  "scraped_at": "2026-01-19T09:40:18.372538",
   "jobs": [
     {
-      "id": 861,
-      "title": "Offres de stage de PFE",
-      "company": "KOUKA"
-    },
-    {
-      "id": 862,
-      "title": "Proposition de sujet de PFE – Equipe RDI DevProf –",
-      "company": "ESPRIT-TECH"
-    },
-    {
-      "id": 863,
-      "title": "Proposition de sujet de PFE -",
-      "company": "Equipe de recherche RFID"
-    },
-    {
-      "id": 864,
+      "id": 868,
       "title": "Offre de stage PFE -",
-      "company": "VISA Services"
+      "company": "Sokari Care"
     },
     {
-      "id": 865,
-      "title": "Offre de stage PFE – Ingénieur Génie Civil",
-      "company": "ECO- PILOT"
+      "id": 869,
+      "title": "Offres de stage PFE - Medactis",
+      "company": "Medactis"
     },
     {
-      "id": 866,
-      "title": "Offre d'emploi - Value",
-      "company": "Value"
-    },
-    {
-      "id": 867,
-      "title": "Offre de stage PFE",
-      "company": "Artimis Tunis"
+      "id": 870,
+      "title": "Offre de stage PFE - Haycom",
+      "company": "HAYCOM TECHNOLOGIES"
     }
   ]
 }
