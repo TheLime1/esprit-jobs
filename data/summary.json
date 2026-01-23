@@ -1,24 +1,19 @@
 {
-  "total_jobs": 3,
-  "session_start_job_id": 866,
-  "session_end_job_id": 870,
-  "next_job_id": 871,
-  "scraped_at": "2026-01-19T09:40:18.372538",
+  "total_jobs": 2,
+  "session_start_job_id": 870,
+  "session_end_job_id": 872,
+  "next_job_id": 873,
+  "scraped_at": "2026-01-23T09:36:07.347122",
   "jobs": [
     {
-      "id": 868,
-      "title": "Offre de stage PFE -",
-      "company": "Sokari Care"
+      "id": 871,
+      "title": "Offre d'emploi - IPACT",
+      "company": "IPACT"
     },
     {
-      "id": 869,
-      "title": "Offres de stage PFE - Medactis",
-      "company": "Medactis"
-    },
-    {
-      "id": 870,
-      "title": "Offre de stage PFE - Haycom",
-      "company": "HAYCOM TECHNOLOGIES"
+      "id": 872,
+      "title": "Offre de stage PFE - Rybsen",
+      "company": "RYBSEN"
     }
   ]
 }
