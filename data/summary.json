@@ -1,19 +1,19 @@
 {
   "total_jobs": 2,
-  "session_start_job_id": 870,
-  "session_end_job_id": 872,
-  "next_job_id": 873,
-  "scraped_at": "2026-01-23T09:36:07.347122",
+  "session_start_job_id": 872,
+  "session_end_job_id": 874,
+  "next_job_id": 875,
+  "scraped_at": "2026-01-27T09:38:43.675975",
   "jobs": [
     {
-      "id": 871,
-      "title": "Offre d'emploi - IPACT",
-      "company": "IPACT"
+      "id": 873,
+      "title": "Offre de stage PFE - Splio",
+      "company": "Splio"
     },
     {
-      "id": 872,
-      "title": "Offre de stage PFE - Rybsen",
-      "company": "RYBSEN"
+      "id": 874,
+      "title": "Offre de stage PFE - SFEB",
+      "company": "SFEB"
     }
   ]
 }
