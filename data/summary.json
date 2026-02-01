@@ -1,19 +1,24 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 872,
-  "session_end_job_id": 874,
-  "next_job_id": 875,
-  "scraped_at": "2026-01-27T09:38:43.675975",
+  "total_jobs": 3,
+  "session_start_job_id": 873,
+  "session_end_job_id": 877,
+  "next_job_id": 878,
+  "scraped_at": "2026-02-01T09:36:37.816837",
   "jobs": [
     {
-      "id": 873,
-      "title": "Offre de stage PFE - Splio",
-      "company": "Splio"
+      "id": 875,
+      "title": "Offre de stage PFE",
+      "company": "BASSETTI"
     },
     {
-      "id": 874,
-      "title": "Offre de stage PFE - SFEB",
-      "company": "SFEB"
+      "id": 876,
+      "title": "Offre de stage PFE - Ténor Afrique",
+      "company": "Ténor Afrique"
+    },
+    {
+      "id": 877,
+      "title": "Offre de stage PFE - Mobiserve Holding",
+      "company": "Mobiserve Holding"
     }
   ]
 }
