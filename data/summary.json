@@ -1,24 +1,34 @@
 {
-  "total_jobs": 3,
-  "session_start_job_id": 873,
-  "session_end_job_id": 877,
-  "next_job_id": 878,
-  "scraped_at": "2026-02-01T09:36:37.816837",
+  "total_jobs": 5,
+  "session_start_job_id": 877,
+  "session_end_job_id": 882,
+  "next_job_id": 883,
+  "scraped_at": "2026-02-03T09:50:41.085285",
   "jobs": [
     {
-      "id": 875,
+      "id": 878,
+      "title": "Offre de stage – Responsable Marketing",
+      "company": "Yomo Pressing"
+    },
+    {
+      "id": 879,
+      "title": "Offre de stage PFE -",
+      "company": "VSIA"
+    },
+    {
+      "id": 880,
+      "title": "Offre de stage",
+      "company": "Eco-pilot"
+    },
+    {
+      "id": 881,
       "title": "Offre de stage PFE",
-      "company": "BASSETTI"
+      "company": "Sumiriko Tunisie"
     },
     {
-      "id": 876,
-      "title": "Offre de stage PFE - Ténor Afrique",
-      "company": "Ténor Afrique"
-    },
-    {
-      "id": 877,
-      "title": "Offre de stage PFE - Mobiserve Holding",
-      "company": "Mobiserve Holding"
+      "id": 882,
+      "title": "Offre d'emploi- Ingénieur d'étude (Simulation des systèmes industriels)",
+      "company": "LAMIH_LAB"
     }
   ]
 }
