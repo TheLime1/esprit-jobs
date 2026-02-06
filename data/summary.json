@@ -1,34 +1,34 @@
 {
   "total_jobs": 5,
-  "session_start_job_id": 877,
-  "session_end_job_id": 882,
-  "next_job_id": 883,
-  "scraped_at": "2026-02-03T09:50:41.085285",
+  "session_start_job_id": 882,
+  "session_end_job_id": 887,
+  "next_job_id": 888,
+  "scraped_at": "2026-02-06T09:51:39.638183",
   "jobs": [
     {
-      "id": 878,
-      "title": "Offre de stage – Responsable Marketing",
-      "company": "Yomo Pressing"
-    },
-    {
-      "id": 879,
-      "title": "Offre de stage PFE -",
-      "company": "VSIA"
-    },
-    {
-      "id": 880,
-      "title": "Offre de stage",
-      "company": "Eco-pilot"
-    },
-    {
-      "id": 881,
+      "id": 883,
       "title": "Offre de stage PFE",
-      "company": "Sumiriko Tunisie"
+      "company": "KBE ELEKTROTECHNIK S.C.S"
     },
     {
-      "id": 882,
-      "title": "Offre d'emploi- Ingénieur d'étude (Simulation des systèmes industriels)",
-      "company": "LAMIH_LAB"
+      "id": 884,
+      "title": "Offre de stage d'été",
+      "company": "Komax Testing Tunisia"
+    },
+    {
+      "id": 885,
+      "title": "Offre de stage PFE - R&D",
+      "company": "R&D-ESPRIT"
+    },
+    {
+      "id": 886,
+      "title": "Offre de stage PFE - Développeur Mobile Android Application EPOS",
+      "company": "Faculté de Pharmacie de Monastir"
+    },
+    {
+      "id": 887,
+      "title": "Offre de stage PFE - Laboratoire Roche",
+      "company": "Roche Tunisie SA"
     }
   ]
 }
