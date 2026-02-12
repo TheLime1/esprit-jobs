@@ -1,34 +1,34 @@
 {
   "total_jobs": 5,
-  "session_start_job_id": 882,
-  "session_end_job_id": 887,
-  "next_job_id": 888,
-  "scraped_at": "2026-02-06T09:51:39.638183",
+  "session_start_job_id": 886,
+  "session_end_job_id": 892,
+  "next_job_id": 893,
+  "scraped_at": "2026-02-12T09:57:10.856239",
   "jobs": [
     {
-      "id": 883,
+      "id": 888,
+      "title": "Stagiaire de Fin d'Études – Développeur Fullstack",
+      "company": "Bryxia Consulting"
+    },
+    {
+      "id": 889,
+      "title": "Offres de stage PFE - Data Era",
+      "company": "DATA ERA"
+    },
+    {
+      "id": 890,
       "title": "Offre de stage PFE",
-      "company": "KBE ELEKTROTECHNIK S.C.S"
+      "company": "Silver Made Consulting"
     },
     {
-      "id": 884,
-      "title": "Offre de stage d'été",
-      "company": "Komax Testing Tunisia"
+      "id": 891,
+      "title": "Offre de stage PFE",
+      "company": "HEXAF"
     },
     {
-      "id": 885,
-      "title": "Offre de stage PFE - R&D",
-      "company": "R&D-ESPRIT"
-    },
-    {
-      "id": 886,
-      "title": "Offre de stage PFE - Développeur Mobile Android Application EPOS",
-      "company": "Faculté de Pharmacie de Monastir"
-    },
-    {
-      "id": 887,
-      "title": "Offre de stage PFE - Laboratoire Roche",
-      "company": "Roche Tunisie SA"
+      "id": 892,
+      "title": "Offre d'emploi",
+      "company": "Consup ON"
     }
   ]
 }
