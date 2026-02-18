@@ -1,34 +1,39 @@
 {
-  "total_jobs": 5,
-  "session_start_job_id": 886,
-  "session_end_job_id": 892,
-  "next_job_id": 893,
-  "scraped_at": "2026-02-12T09:57:10.856239",
+  "total_jobs": 6,
+  "session_start_job_id": 892,
+  "session_end_job_id": 898,
+  "next_job_id": 899,
+  "scraped_at": "2026-02-18T09:55:48.739855",
   "jobs": [
     {
-      "id": 888,
-      "title": "Stagiaire de Fin d'Études – Développeur Fullstack",
-      "company": "Bryxia Consulting"
+      "id": 893,
+      "title": "Stage PFE en Ressources Humaines",
+      "company": "Benman Partners"
     },
     {
-      "id": 889,
-      "title": "Offres de stage PFE - Data Era",
-      "company": "DATA ERA"
+      "id": 894,
+      "title": "Offre d'emploi - Consultant Infrastructures Systèmes et Cloud",
+      "company": "ADVANCIA"
     },
     {
-      "id": 890,
-      "title": "Offre de stage PFE",
-      "company": "Silver Made Consulting"
+      "id": 895,
+      "title": "Offre de stage – DATA & Full-Stack Developer",
+      "company": "IQVIA"
     },
     {
-      "id": 891,
-      "title": "Offre de stage PFE",
-      "company": "HEXAF"
+      "id": 896,
+      "title": "PFE Qualité (développement IT et normes)",
+      "company": "Structure académique"
     },
     {
-      "id": 892,
-      "title": "Offre d'emploi",
-      "company": "Consup ON"
+      "id": 897,
+      "title": "Offre d'emploi – Electrical & Control Systems Engineer – Hydrogen Projects",
+      "company": "HydroGain"
+    },
+    {
+      "id": 898,
+      "title": "Offre de stage PFE – Omicron",
+      "company": "Omicron"
     }
   ]
 }
