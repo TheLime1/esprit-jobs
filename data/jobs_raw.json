@@ -1898,5 +1898,43 @@
     "added_by_name": "Haidy  Khemiri",
     "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
     "scraped_at": "2026-02-18T09:55:42.072418"
+  },
+  {
+    "job_id": 899,
+    "title": "Offres de stage PFE – Zoho",
+    "company": "Zoho",
+    "location": "Engineering",
+    "description": "En PJ un descriptif du sujet.*******************************",
+    "requirements": "No requirements specified",
+    "posted_date": "Unknown Date",
+    "url": "https://espritconnect.com/jobs/899",
+    "image_url": null,
+    "company_logo_url": "https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/10a7544c-44f1-4b85-8e96-a22d739185f6.png?Expires=1771752902&Signature=AWE44hqfwaoD8RxLcKyvfyG6jthSTrOlHqQXB5xZOwLJM2Je28qmx1wCVQ7OJCt4IUt~44jmTld-1Df9pJ-POUh~Ug67rM7I4nJQKM2ywsmdbKicDKT5BVARzzYVHh~fYpIjhP~nMtyb688h2LvSMwfft29KF8ljW3rvi8fMnwqDAVgJCstnjeviGZ0oxnrrSYHbYdb4lKUzuv0hn9t0Kva0xK7x7FbvjLvC95FiPhyUfEA26amV5qI4WfgGWQK3Ir~2loc~7IwQmCQG4Vqm9Qv5W3ABN2G9DY84a7uHkLN-Yo~0-r~cRyARdFbjTNpcQaB0pDRW9y0Be3NPjkjKjg__&Key-Pair-Id=K2PRJM0EAVGP0A",
+    "employment_type": "Final project Internship",
+    "industry": null,
+    "job_function": null,
+    "closing_date": "Closing date for applications: 20/05/2026",
+    "added_by_name": "Haidy  Khemiri",
+    "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
+    "scraped_at": "2026-02-21T09:35:03.587292"
+  },
+  {
+    "job_id": 900,
+    "title": "Offre de stage PFE –  IA et analytique pour une pédagogie personnalisée",
+    "company": "Entité pégagogique",
+    "location": "Final project Internship",
+    "description": "En PJ un descriptif du sujet.",
+    "requirements": "No requirements specified",
+    "posted_date": "Unknown Date",
+    "url": "https://espritconnect.com/jobs/900",
+    "image_url": null,
+    "company_logo_url": "https://dx5i3n065oxey.cloudfront.net/platform/50238/job/thumb/0670944b-904d-4a8d-8909-06f7e7936510.jpg?Expires=1771752906&Signature=oTtVnyz6KBxqrW0aq9CFDY2PKUh~0MVBjOJjZYlEvpzwLkZkAlQhaLBGe8CP5382LtR7Cs5egLKdXnsCXMWinUh9b7H1qmGyB9uyfV85qbvg0pUHik0PScPj1LOws9Ail8u8m5G9I-~r9I736Jmp2hUpyBfOQiGYlvNqKz0-XhtYvmoE6nSsb~lTmTJrX3bgmr~jpSjjxslQHUCoFNeMmKvopQ5QsZdXuDyLIhtvtbbPS02GquW-sJGmqIsEOEsVGiiMeMCLYBB91mVZoiuiAnXOA498x6--~-5vH9-3XuhHgGZLbrMTon27ggYM4Ky5YbfOaWLGrG7U-PDSurFGug__&Key-Pair-Id=K2PRJM0EAVGP0A",
+    "employment_type": null,
+    "industry": null,
+    "job_function": null,
+    "closing_date": "Closing date for applications: 20/05/2026",
+    "added_by_name": "Haidy  Khemiri",
+    "added_by_company": "Employability Coordinator , ESPRIM (Ecole Supérieure Privée d'Ingénieurs de Monastir)",
+    "scraped_at": "2026-02-21T09:35:07.256249"
   }
 ]

@@ -1,39 +1,19 @@
 {
-  "total_jobs": 6,
-  "session_start_job_id": 892,
-  "session_end_job_id": 898,
-  "next_job_id": 899,
-  "scraped_at": "2026-02-18T09:55:48.739855",
+  "total_jobs": 2,
+  "session_start_job_id": 898,
+  "session_end_job_id": 900,
+  "next_job_id": 901,
+  "scraped_at": "2026-02-21T09:35:13.807631",
   "jobs": [
     {
-      "id": 893,
-      "title": "Stage PFE en Ressources Humaines",
-      "company": "Benman Partners"
+      "id": 899,
+      "title": "Offres de stage PFE – Zoho",
+      "company": "Zoho"
     },
     {
-      "id": 894,
-      "title": "Offre d'emploi - Consultant Infrastructures Systèmes et Cloud",
-      "company": "ADVANCIA"
-    },
-    {
-      "id": 895,
-      "title": "Offre de stage – DATA & Full-Stack Developer",
-      "company": "IQVIA"
-    },
-    {
-      "id": 896,
-      "title": "PFE Qualité (développement IT et normes)",
-      "company": "Structure académique"
-    },
-    {
-      "id": 897,
-      "title": "Offre d'emploi – Electrical & Control Systems Engineer – Hydrogen Projects",
-      "company": "HydroGain"
-    },
-    {
-      "id": 898,
-      "title": "Offre de stage PFE – Omicron",
-      "company": "Omicron"
+      "id": 900,
+      "title": "Offre de stage PFE –  IA et analytique pour une pédagogie personnalisée",
+      "company": "Entité pégagogique"
     }
   ]
 }
