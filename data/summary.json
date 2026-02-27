@@ -1,19 +1,39 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 898,
-  "session_end_job_id": 900,
-  "next_job_id": 901,
-  "scraped_at": "2026-02-21T09:35:13.807631",
+  "total_jobs": 6,
+  "session_start_job_id": 899,
+  "session_end_job_id": 906,
+  "next_job_id": 907,
+  "scraped_at": "2026-02-27T09:50:22.374638",
   "jobs": [
     {
-      "id": 899,
-      "title": "Offres de stage PFE – Zoho",
-      "company": "Zoho"
+      "id": 901,
+      "title": "Offre de stage PFE – Optimisation de Portefeuille sous Risque de Transition Climatique",
+      "company": "Structure"
     },
     {
-      "id": 900,
-      "title": "Offre de stage PFE –  IA et analytique pour une pédagogie personnalisée",
-      "company": "Entité pégagogique"
+      "id": 902,
+      "title": "Offre de stage PFE –  BraindCode",
+      "company": "BraindCode"
+    },
+    {
+      "id": 903,
+      "title": "Offre de stage PFE – Medcom",
+      "company": "Medcom"
+    },
+    {
+      "id": 904,
+      "title": "Offre de stage PFE – YZY DIGIT",
+      "company": "YZY DIGIT"
+    },
+    {
+      "id": 905,
+      "title": "Offre de stage PFE",
+      "company": "Solutions Express QC"
+    },
+    {
+      "id": 906,
+      "title": "Offre PFE – Développement & Sécurisation d’un site web corporate WordPress",
+      "company": "RYBSEN"
     }
   ]
 }
