@@ -1,39 +1,19 @@
 {
-  "total_jobs": 6,
-  "session_start_job_id": 899,
-  "session_end_job_id": 906,
-  "next_job_id": 907,
-  "scraped_at": "2026-02-27T09:50:22.374638",
+  "total_jobs": 2,
+  "session_start_job_id": 904,
+  "session_end_job_id": 908,
+  "next_job_id": 909,
+  "scraped_at": "2026-03-03T09:50:53.390348",
   "jobs": [
     {
-      "id": 901,
-      "title": "Offre de stage PFE – Optimisation de Portefeuille sous Risque de Transition Climatique",
-      "company": "Structure"
+      "id": 907,
+      "title": "Stage PFE – Marketing (Account-Based Marketing)",
+      "company": "RELEAD"
     },
     {
-      "id": 902,
-      "title": "Offre de stage PFE –  BraindCode",
-      "company": "BraindCode"
-    },
-    {
-      "id": 903,
-      "title": "Offre de stage PFE – Medcom",
-      "company": "Medcom"
-    },
-    {
-      "id": 904,
-      "title": "Offre de stage PFE – YZY DIGIT",
-      "company": "YZY DIGIT"
-    },
-    {
-      "id": 905,
-      "title": "Offre de stage PFE",
-      "company": "Solutions Express QC"
-    },
-    {
-      "id": 906,
-      "title": "Offre PFE – Développement & Sécurisation d’un site web corporate WordPress",
-      "company": "RYBSEN"
+      "id": 908,
+      "title": "Offre d'emploi – Techmagnate",
+      "company": "Techmagnate"
     }
   ]
 }
