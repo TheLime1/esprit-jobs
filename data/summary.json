@@ -1,19 +1,24 @@
 {
-  "total_jobs": 2,
-  "session_start_job_id": 904,
-  "session_end_job_id": 908,
-  "next_job_id": 909,
-  "scraped_at": "2026-03-03T09:50:53.390348",
+  "total_jobs": 3,
+  "session_start_job_id": 912,
+  "session_end_job_id": 911,
+  "next_job_id": 912,
+  "scraped_at": "2026-03-04T09:49:12.199577",
   "jobs": [
     {
-      "id": 907,
-      "title": "Stage PFE – Marketing (Account-Based Marketing)",
-      "company": "RELEAD"
+      "id": 909,
+      "title": "Full stack developer - Cybersecurity - Dev-Ops",
+      "company": "Unknown Company"
     },
     {
-      "id": 908,
-      "title": "Offre d'emploi – Techmagnate",
-      "company": "Techmagnate"
+      "id": 910,
+      "title": "Offre de stage PFE - Bassetti Tunisia",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 911,
+      "title": "Offre de stage PFE",
+      "company": "Unknown Company"
     }
   ]
 }
