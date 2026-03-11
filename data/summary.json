@@ -1,23 +1,28 @@
 {
-  "total_jobs": 3,
-  "session_start_job_id": 912,
-  "session_end_job_id": 911,
-  "next_job_id": 912,
-  "scraped_at": "2026-03-04T09:49:12.199577",
+  "total_jobs": 4,
+  "session_start_job_id": 911,
+  "session_end_job_id": 915,
+  "next_job_id": 916,
+  "scraped_at": "2026-03-11T09:51:07.002910",
   "jobs": [
     {
-      "id": 909,
-      "title": "Full stack developer - Cybersecurity - Dev-Ops",
+      "id": 912,
+      "title": "Offre de stage PFE – Unité Consulting",
       "company": "Unknown Company"
     },
     {
-      "id": 910,
-      "title": "Offre de stage PFE - Bassetti Tunisia",
+      "id": 913,
+      "title": "Offre de stage PFE – Peppermint Company",
       "company": "Unknown Company"
     },
     {
-      "id": 911,
-      "title": "Offre de stage PFE",
+      "id": 914,
+      "title": "Offre de stage PFE  – ONE GATE AFRICA",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 915,
+      "title": "Offre d'emploi – Allianc3",
       "company": "Unknown Company"
     }
   ]
