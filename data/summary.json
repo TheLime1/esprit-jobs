@@ -1,28 +1,13 @@
 {
-  "total_jobs": 4,
-  "session_start_job_id": 911,
-  "session_end_job_id": 915,
-  "next_job_id": 916,
-  "scraped_at": "2026-03-11T09:51:07.002910",
+  "total_jobs": 1,
+  "session_start_job_id": 915,
+  "session_end_job_id": 916,
+  "next_job_id": 917,
+  "scraped_at": "2026-03-25T09:58:26.587605",
   "jobs": [
     {
-      "id": 912,
-      "title": "Offre de stage PFE – Unité Consulting",
-      "company": "Unknown Company"
-    },
-    {
-      "id": 913,
-      "title": "Offre de stage PFE – Peppermint Company",
-      "company": "Unknown Company"
-    },
-    {
-      "id": 914,
-      "title": "Offre de stage PFE  – ONE GATE AFRICA",
-      "company": "Unknown Company"
-    },
-    {
-      "id": 915,
-      "title": "Offre d'emploi – Allianc3",
+      "id": 916,
+      "title": "Analyste SOC L2 (H/F)",
       "company": "Unknown Company"
     }
   ]
