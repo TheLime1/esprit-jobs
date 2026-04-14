@@ -1,13 +1,13 @@
 {
   "total_jobs": 1,
   "session_start_job_id": 915,
-  "session_end_job_id": 916,
-  "next_job_id": 917,
-  "scraped_at": "2026-03-25T09:58:26.587605",
+  "session_end_job_id": 917,
+  "next_job_id": 918,
+  "scraped_at": "2026-04-14T10:19:09.703086",
   "jobs": [
     {
-      "id": 916,
-      "title": "Analyste SOC L2 (H/F)",
+      "id": 917,
+      "title": "Offre d'emploi – Intégrateur TEEXMA",
       "company": "Unknown Company"
     }
   ]
