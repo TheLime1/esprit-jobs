@@ -1,13 +1,48 @@
 {
-  "total_jobs": 1,
-  "session_start_job_id": 915,
-  "session_end_job_id": 917,
-  "next_job_id": 918,
-  "scraped_at": "2026-04-14T10:19:09.703086",
+  "total_jobs": 8,
+  "session_start_job_id": 916,
+  "session_end_job_id": 925,
+  "next_job_id": 926,
+  "scraped_at": "2026-04-29T11:01:08.994137",
   "jobs": [
     {
-      "id": 917,
-      "title": "Offre d'emploi – Intégrateur TEEXMA",
+      "id": 918,
+      "title": "Offres de stage PFE",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 919,
+      "title": "Offre de stage - Medcom",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 920,
+      "title": "Stage Ingénieur : Fine-tuning & Optimisation RAG",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 921,
+      "title": "Offres d'emploi",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 922,
+      "title": "STAGIAIRE PFE / Business Developer (H/F)",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 923,
+      "title": "Offre d'emploi",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 924,
+      "title": "Offre de stage - - Stage Professionnel RH : Chargé(e) de Recrutement & Développement RH (H/F",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 925,
+      "title": "Offres de stage PFE rémunérés + Offres embauches -",
       "company": "Unknown Company"
     }
   ]
