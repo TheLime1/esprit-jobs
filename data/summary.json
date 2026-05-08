@@ -1,48 +1,218 @@
 {
-  "total_jobs": 8,
-  "session_start_job_id": 916,
-  "session_end_job_id": 925,
-  "next_job_id": 926,
-  "scraped_at": "2026-04-29T11:01:08.994137",
+  "total_jobs": 42,
+  "session_start_job_id": 802,
+  "session_end_job_id": 845,
+  "next_job_id": 846,
+  "scraped_at": "2026-05-08T14:20:05.621644",
   "jobs": [
     {
-      "id": 918,
-      "title": "Offres de stage PFE",
+      "id": 804,
+      "title": "Offres de stages PFE - ServRobot",
       "company": "Unknown Company"
     },
     {
-      "id": 919,
-      "title": "Offre de stage - Medcom",
+      "id": 805,
+      "title": "Offre de stage PFE en Intelligence Artificielle",
       "company": "Unknown Company"
     },
     {
-      "id": 920,
-      "title": "Stage Ingénieur : Fine-tuning & Optimisation RAG",
+      "id": 806,
+      "title": "Offre d'emploi - Bassetti",
       "company": "Unknown Company"
     },
     {
-      "id": 921,
-      "title": "Offres d'emploi",
+      "id": 807,
+      "title": "Offre de stage – Projet Ifriqya (Start IT)",
       "company": "Unknown Company"
     },
     {
-      "id": 922,
-      "title": "STAGIAIRE PFE / Business Developer (H/F)",
+      "id": 808,
+      "title": "Offre d'emploi - Huawei",
       "company": "Unknown Company"
     },
     {
-      "id": 923,
-      "title": "Offre d'emploi",
+      "id": 809,
+      "title": "Offre de stage PFE - EMP",
       "company": "Unknown Company"
     },
     {
-      "id": 924,
-      "title": "Offre de stage - - Stage Professionnel RH : Chargé(e) de Recrutement & Développement RH (H/F",
+      "id": 810,
+      "title": "Offre de stage PFE - BRS",
       "company": "Unknown Company"
     },
     {
-      "id": 925,
-      "title": "Offres de stage PFE rémunérés + Offres embauches -",
+      "id": 811,
+      "title": "Offre de stage – VOE",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 812,
+      "title": "Offre de stage PFE – Intelligence Artificielle & Transformation Digitale",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 813,
+      "title": "Offre de stages PFE en Intelligence Artificielle – Nexus Groupe",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 814,
+      "title": "Offre de stage PFE",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 815,
+      "title": "Offres de stages PFE- PwC",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 816,
+      "title": "Offres de stage - Medsirat",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 817,
+      "title": "Offre de stage PFE –",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 818,
+      "title": "Offre de stage PFE - Capgemini",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 819,
+      "title": "Offre de stage PFE - Data Tricks",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 820,
+      "title": "Offre de stages PFE - Healio",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 821,
+      "title": "Offre de stage (PFE)",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 822,
+      "title": "Stage PFE DevSecOps",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 823,
+      "title": "Stage PFE - Digital Marketing Intern",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 824,
+      "title": "Offre de Stage (PFE) - ServRobot",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 825,
+      "title": "Offre de stage de pré-embauche - Benman Partners",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 826,
+      "title": "Offre de stage PFE",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 827,
+      "title": "Offre de Stage PFE – Ingénieur IoT & Intelligence Artificielle appliquée à l’Agriculture",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 828,
+      "title": "Offre de stage PFE -",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 829,
+      "title": "Offre de stage - Sym Télécom",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 830,
+      "title": "Offre d’emploi –",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 831,
+      "title": "Offres de stage - SOASY",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 832,
+      "title": "OFFRE D'EMPLOI - SNBG",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 833,
+      "title": "Offre d’emploi - CCSAV",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 834,
+      "title": "Offre de stage PFE - Advensia GmbH",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 835,
+      "title": "Offre de stage PFE - Inspecly",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 836,
+      "title": "Offre de stage PFE - Security Accent GmbH",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 837,
+      "title": "Premier emploi - Ingénieur(e) Full-Stack",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 838,
+      "title": "Offre d'emploi - Indigo",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 839,
+      "title": "Offre de stage pré-embauche – SALAMBO PROSERV",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 840,
+      "title": "Offres de stage - Aymax",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 841,
+      "title": "Offre de stage PFE – Deloitte Tunisia",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 842,
+      "title": "Offre de stage PFE - Sparkling",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 843,
+      "title": "Offre de stage PFE – Scalia Dev",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 844,
+      "title": "Offre de stage PFE - WiseCorp",
+      "company": "Unknown Company"
+    },
+    {
+      "id": 845,
+      "title": "Offre de stage PFE – EDICHEM",
       "company": "Unknown Company"
     }
   ]
