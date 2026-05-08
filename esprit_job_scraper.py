@@ -13,7 +13,7 @@ import time
 import requests
 from datetime import datetime
 from dataclasses import dataclass, asdict
-from typing import List, Optional, Union
+from typing import Any, Dict, List, Optional, Union
 from urllib.parse import urljoin, urlparse
 import logging
 
@@ -517,8 +517,6 @@ class EspritJobScraper:
                     f"⚠️ Job {job_id} appears to be empty - stopping scraper as failsafe")
                 logger.info(
                     "This may indicate a redirect that wasn't caught or incomplete page load")
-                # Save current state so next run starts from this ID
-                self.save_last_job_id(job_id)
                 return "EMPTY_JOB_STOP"  # Special return value to signal stop
 
             logger.info(f"✅ Successfully scraped job {job_id}: {title}")
@@ -595,6 +593,13 @@ class EspritJobScraper:
 
                 break
             elif job == "EMPTY_JOB_STOP":
+                if self.current_job_id in self.existing_job_ids:
+                    logger.warning(
+                        f"🔄 Existing job {self.current_job_id} is now empty - skipping stale duplicate")
+                    self.current_job_id += 1
+                    time.sleep(1)
+                    continue
+
                 logger.warning(
                     "🛑 Empty job detected - stopping as failsafe mechanism")
                 logger.info("🎯 Saving progress before stopping...")
@@ -640,11 +645,33 @@ class EspritJobScraper:
 
         # Save as raw JSON for feed generation
         raw_json_file = os.path.join(output_dir, "jobs_raw.json")
-        with open(raw_json_file, 'w', encoding='utf-8') as f:
-            json.dump([asdict(job) for job in self.jobs_scraped],
-                      f, indent=2, ensure_ascii=False)
+        merged_jobs: Dict[int, Dict[str, Any]] = {}
 
-        logger.info(f"Saved {len(self.jobs_scraped)} jobs to {raw_json_file}")
+        if os.path.exists(raw_json_file):
+            try:
+                with open(raw_json_file, 'r', encoding='utf-8') as f:
+                    existing_jobs = json.load(f)
+
+                for existing_job in existing_jobs:
+                    job_id = existing_job.get("job_id")
+                    if job_id is not None:
+                        merged_jobs[int(job_id)] = existing_job
+            except Exception as e:
+                logger.warning(f"Could not merge existing jobs_raw.json: {e}")
+
+        for job in self.jobs_scraped:
+            merged_jobs[int(job.job_id)] = asdict(job)
+
+        merged_job_list = [
+            merged_jobs[job_id]
+            for job_id in sorted(merged_jobs.keys())
+        ]
+
+        with open(raw_json_file, 'w', encoding='utf-8') as f:
+            json.dump(merged_job_list, f, indent=2, ensure_ascii=False)
+
+        logger.info(
+            f"Saved {len(merged_job_list)} total jobs ({len(self.jobs_scraped)} new) to {raw_json_file}")
 
         # Save summary with state information
         start_id = self.load_last_job_id() if hasattr(self, 'initial_job_id') else 785
